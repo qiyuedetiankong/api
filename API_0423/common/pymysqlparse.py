@@ -5,7 +5,9 @@
 # @Software:PyCharm Community Edition
 
 import pymysql
-from homework.API_0423.common.configparse import ReadConfig
+
+from API_0423.common.configparse import ReadConfig
+#修改修改
 class PymysqlPrase:
     def __init__(self):
         self.host = ReadConfig().get_cfg_value("sql", "host")
