@@ -1,0 +1,574 @@
+2019-04-26 15:56:53,017 - log_parser.py [line:34] - DEBUG - 日志信息：case:正常登录,请求数据data:{'pwd': '123456', 'mobilephone': '15810447878'},测试通过
+2019-04-26 15:56:53,159 - log_parser.py [line:34] - DEBUG - 日志信息：case:密码错误,请求数据data:{'pwd': '12345', 'mobilephone': '15810447878'},测试通过
+2019-04-26 15:56:53,280 - log_parser.py [line:34] - DEBUG - 日志信息：case:用户名错误,请求数据data:{'pwd': '123456', 'mobilephone': '158104478783'},测试通过
+2019-04-26 15:56:53,403 - log_parser.py [line:34] - DEBUG - 日志信息：case:密码为空,请求数据data:{'pwd': '', 'mobilephone': '15810447878'},测试通过
+2019-04-26 15:56:53,531 - log_parser.py [line:34] - DEBUG - 日志信息：case:用户名为空,请求数据data:{'pwd': '123456', 'mobilephone': ''},测试通过
+2019-04-26 15:57:34,750 - log_parser.py [line:34] - DEBUG - 日志信息：case:正常登录,请求数据data:{'pwd': '123456', 'mobilephone': '15810447878'},测试通过
+2019-04-26 15:57:34,872 - log_parser.py [line:34] - DEBUG - 日志信息：case:密码错误,请求数据data:{'pwd': '12345', 'mobilephone': '15810447878'},测试通过
+2019-04-26 15:57:34,992 - log_parser.py [line:34] - DEBUG - 日志信息：case:用户名错误,请求数据data:{'pwd': '123456', 'mobilephone': '158104478783'},测试通过
+2019-04-26 15:57:35,111 - log_parser.py [line:34] - DEBUG - 日志信息：case:密码为空,请求数据data:{'pwd': '', 'mobilephone': '15810447878'},测试通过
+2019-04-26 15:57:35,237 - log_parser.py [line:34] - DEBUG - 日志信息：case:用户名为空,请求数据data:{'pwd': '123456', 'mobilephone': ''},测试通过
+2019-04-26 16:00:09,598 - log_parser.py [line:34] - DEBUG - 日志信息：case:正常登录,请求数据data:{'mobilephone': '15810447878', 'pwd': '123456'},测试通过
+2019-04-26 16:00:09,722 - log_parser.py [line:34] - DEBUG - 日志信息：case:密码错误,请求数据data:{'mobilephone': '15810447878', 'pwd': '12345'},测试通过
+2019-04-26 16:00:09,843 - log_parser.py [line:34] - DEBUG - 日志信息：case:用户名错误,请求数据data:{'mobilephone': '158104478783', 'pwd': '123456'},测试通过
+2019-04-26 16:00:09,964 - log_parser.py [line:34] - DEBUG - 日志信息：case:密码为空,请求数据data:{'mobilephone': '15810447878', 'pwd': ''},测试通过
+2019-04-26 16:00:10,096 - log_parser.py [line:34] - DEBUG - 日志信息：case:用户名为空,请求数据data:{'mobilephone': '', 'pwd': '123456'},测试通过
+2019-04-26 16:00:26,109 - log_parser.py [line:34] - DEBUG - 日志信息：case:正常注册,请求数据data:{'pwd': '123456', 'mobilephone': '18999997597'},查询的sql:select max(mobilephone) from future.member,测试通过
+2019-04-26 16:00:26,236 - log_parser.py [line:34] - DEBUG - 日志信息：case:会员名为空,请求数据data:{'pwd': '123457', 'mobilephone': ''},查询的sql:None,测试通过
+2019-04-26 16:00:26,373 - log_parser.py [line:34] - DEBUG - 日志信息：case:密码为空,请求数据data:{'pwd': '', 'mobilephone': '15810837678'},查询的sql:None,测试通过
+2019-04-26 16:00:26,492 - log_parser.py [line:34] - DEBUG - 日志信息：case:该会员已注册,请求数据data:{'pwd': '123459', 'mobilephone': '15810837678'},查询的sql:None,测试通过
+2019-04-26 16:00:26,625 - log_parser.py [line:34] - DEBUG - 日志信息：case:手机格式错误,请求数据data:{'pwd': '@123456556&', 'mobilephone': '158105484789'},查询的sql:None,测试通过
+2019-04-26 16:00:26,743 - log_parser.py [line:34] - DEBUG - 日志信息：case:密码位数等于超过16位,请求数据data:{'pwd': '@1555555555555523456556&', 'mobilephone': '15810548475'},查询的sql:None,测试通过
+2019-04-26 16:00:26,859 - log_parser.py [line:34] - DEBUG - 日志信息：case:密码位数等于6位,请求数据data:{'pwd': '11111', 'mobilephone': '15810548475'},查询的sql:None,测试通过
+2019-04-26 16:09:33,289 - log_parser.py [line:34] - DEBUG - 日志信息：case:正常登录,请求数据data:{'pwd': '123456', 'mobilephone': '15071177296'},查询的sql:None,测试通过
+2019-04-26 16:09:33,342 - log_parser.py [line:34] - DEBUG - 日志信息：加标前的loan条数
+2019-04-26 16:09:33,477 - log_parser.py [line:34] - DEBUG - 日志信息：case:加标成功,请求数据data:{'amount': 20000, 'loanTerm': 3, 'loanDateType': 0, 'title': 'test add,_15071177296', 'biddingDays': 5, 'loanRate': '12.0', 'repaymemtWay': 11, 'memberId': '1406'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-26 16:09:33,528 - log_parser.py [line:34] - DEBUG - 日志信息：加标后的loan条数
+2019-04-26 16:09:33,582 - log_parser.py [line:34] - DEBUG - 日志信息：加标前的loan条数
+2019-04-26 16:09:33,708 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款日期期限为日，参数为2,请求数据data:{'amount': '100000.00', 'loanTerm': '6', 'loanDateType': '2', 'title': 'test add,_150测试', 'biddingDays': '5', 'loanRate': '18.1', 'repaymemtWay': '4', 'memberId': '1406'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-26 16:09:33,759 - log_parser.py [line:34] - DEBUG - 日志信息：加标后的loan条数
+2019-04-26 16:09:33,813 - log_parser.py [line:34] - DEBUG - 日志信息：加标前的loan条数
+2019-04-26 16:09:33,944 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款日期期限为月，参数为0,请求数据data:{'amount': '100000.00', 'loanTerm': '6', 'loanDateType': '0', 'title': 'test add,_15071177296', 'biddingDays': '5', 'loanRate': '18.1', 'repaymemtWay': '4', 'memberId': '1406'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-26 16:09:33,996 - log_parser.py [line:34] - DEBUG - 日志信息：加标后的loan条数
+2019-04-26 16:09:34,049 - log_parser.py [line:34] - DEBUG - 日志信息：加标前的loan条数
+2019-04-26 16:09:34,182 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款日期期限为周，参数为4,请求数据data:{'amount': '100000.00', 'loanTerm': '6', 'loanDateType': '4', 'title': 'test add,_15071177296', 'biddingDays': '5', 'loanRate': '18.1', 'repaymemtWay': '4', 'memberId': '1406'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-26 16:09:34,235 - log_parser.py [line:34] - DEBUG - 日志信息：加标后的loan条数
+2019-04-26 16:09:34,288 - log_parser.py [line:34] - DEBUG - 日志信息：加标前的loan条数
+2019-04-26 16:09:34,413 - log_parser.py [line:34] - DEBUG - 日志信息：case:一次性还款,请求数据data:{'amount': '100000.00', 'loanTerm': '6', 'loanDateType': '0', 'title': 'test add,_15071177296', 'biddingDays': '5', 'loanRate': '18.1', 'repaymemtWay': '4', 'memberId': '1406'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-26 16:09:34,464 - log_parser.py [line:34] - DEBUG - 日志信息：加标后的loan条数
+2019-04-26 16:09:34,518 - log_parser.py [line:34] - DEBUG - 日志信息：加标前的loan条数
+2019-04-26 16:09:34,652 - log_parser.py [line:34] - DEBUG - 日志信息：case:按月等额本息,请求数据data:{'amount': '100000.00', 'loanTerm': '6', 'loanDateType': '0', 'title': 'test add,_15071177296', 'biddingDays': '5', 'loanRate': '18.1', 'repaymemtWay': '5', 'memberId': '1406'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-26 16:09:34,705 - log_parser.py [line:34] - DEBUG - 日志信息：加标后的loan条数
+2019-04-26 16:09:34,759 - log_parser.py [line:34] - DEBUG - 日志信息：加标前的loan条数
+2019-04-26 16:09:34,903 - log_parser.py [line:34] - DEBUG - 日志信息：case:按月付息，到期还本,请求数据data:{'amount': '100000.00', 'loanTerm': '6', 'loanDateType': '0', 'title': 'test add,_15071177296', 'biddingDays': '5', 'loanRate': '18.1', 'repaymemtWay': '11', 'memberId': '1406'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-26 16:09:34,954 - log_parser.py [line:34] - DEBUG - 日志信息：加标后的loan条数
+2019-04-26 16:09:35,074 - log_parser.py [line:34] - DEBUG - 日志信息：case:用户ID为小数,请求数据data:{'amount': '100000.00', 'loanTerm': '6', 'loanDateType': '0', 'title': 'test add,_15071177296', 'biddingDays': '6', 'loanRate': '18.1', 'repaymemtWay': '4', 'memberId': '20.2'},查询的sql:None,测试通过
+2019-04-26 16:09:35,196 - log_parser.py [line:34] - DEBUG - 日志信息：case:用户ID不存在,请求数据data:{'amount': '100000.00', 'loanTerm': '6', 'loanDateType': '0', 'title': 'test add,_15071177296', 'biddingDays': '6', 'loanRate': '18.1', 'repaymemtWay': '4', 'memberId': '99999'},查询的sql:None,测试通过
+2019-04-26 16:09:35,250 - log_parser.py [line:34] - DEBUG - 日志信息：加标前的loan条数
+2019-04-26 16:09:35,382 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款金额为1000,请求数据data:{'amount': '1000.00', 'loanTerm': '6', 'loanDateType': '0', 'title': 'test add,_15071177296', 'biddingDays': '5', 'loanRate': '18.1', 'repaymemtWay': '4', 'memberId': '1406'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-26 16:09:35,434 - log_parser.py [line:34] - DEBUG - 日志信息：加标后的loan条数
+2019-04-26 16:09:35,554 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款金额为1001,请求数据data:{'amount': '1001.00', 'loanTerm': '6', 'loanDateType': '0', 'title': 'test add,_15071177296', 'biddingDays': '5', 'loanRate': '18.1', 'repaymemtWay': '4', 'memberId': '1406'},查询的sql:None,测试通过
+2019-04-26 16:09:35,606 - log_parser.py [line:34] - DEBUG - 日志信息：加标前的loan条数
+2019-04-26 16:09:35,735 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款金额为1000.0,请求数据data:{'amount': '1000.00', 'loanTerm': '6', 'loanDateType': '0', 'title': 'test add,_15071177296', 'biddingDays': '5', 'loanRate': '18.1', 'repaymemtWay': '4', 'memberId': '1406'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-26 16:09:35,787 - log_parser.py [line:34] - DEBUG - 日志信息：加标后的loan条数
+2019-04-26 16:09:35,915 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款金额为-1,请求数据data:{'amount': '-1', 'loanTerm': '6', 'loanDateType': '0', 'title': 'test add,_15071177296', 'biddingDays': '5', 'loanRate': '18.1', 'repaymemtWay': '4', 'memberId': '1406'},查询的sql:None,测试通过
+2019-04-26 16:09:36,037 - log_parser.py [line:34] - DEBUG - 日志信息：case:年利率为-0.0,请求数据data:{'amount': '1000', 'loanTerm': '6', 'loanDateType': '0', 'title': 'test add,_15071177296', 'biddingDays': '5', 'loanRate': '-0.0', 'repaymemtWay': '4', 'memberId': '1406'},查询的sql:None,测试通过
+2019-04-26 16:09:36,166 - log_parser.py [line:34] - DEBUG - 日志信息：case:年利率为0,请求数据data:{'amount': '1000', 'loanTerm': '6', 'loanDateType': '0', 'title': 'test add,_15071177296', 'biddingDays': '5', 'loanRate': '0', 'repaymemtWay': '4', 'memberId': '1406'},查询的sql:None,测试通过
+2019-04-26 16:09:36,220 - log_parser.py [line:34] - DEBUG - 日志信息：加标前的loan条数
+2019-04-26 16:09:36,357 - log_parser.py [line:34] - DEBUG - 日志信息：case:年利率为24,请求数据data:{'amount': '1000', 'loanTerm': '6', 'loanDateType': '0', 'title': 'test add,_15071177296', 'biddingDays': '5', 'loanRate': '24', 'repaymemtWay': '4', 'memberId': '1406'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-26 16:09:36,408 - log_parser.py [line:34] - DEBUG - 日志信息：加标后的loan条数
+2019-04-26 16:09:36,545 - log_parser.py [line:34] - DEBUG - 日志信息：case:年利率为25,请求数据data:{'amount': '1000', 'loanTerm': '6', 'loanDateType': '0', 'title': 'test add,_15071177296', 'biddingDays': '5', 'loanRate': '25', 'repaymemtWay': '4', 'memberId': '1406'},查询的sql:None,测试通过
+2019-04-26 16:09:36,668 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款日期期限为其他类型，参数为1,请求数据data:{'amount': '100000.00', 'loanTerm': '6', 'loanDateType': '5', 'title': 'test add,_15071177296', 'biddingDays': '5', 'loanRate': '18.1', 'repaymemtWay': '4', 'memberId': '1406'},查询的sql:None,测试通过
+2019-04-26 16:09:36,795 - log_parser.py [line:34] - DEBUG - 日志信息：case:其他还款方式,请求数据data:{'amount': '100000.00', 'loanTerm': '6', 'loanDateType': '0', 'title': 'test add,_15071177296', 'biddingDays': '6', 'loanRate': '18.1', 'repaymemtWay': '32', 'memberId': '1406'},查询的sql:None,测试失败
+2019-04-26 16:11:39,621 - log_parser.py [line:34] - DEBUG - 日志信息：case:正常登录,请求数据data:{'pwd': '123456', 'mobilephone': '15071177296'},查询的sql:None,测试通过
+2019-04-26 16:11:39,677 - log_parser.py [line:34] - DEBUG - 日志信息：case:加标成功,加标前的loan条数197
+2019-04-26 16:11:39,816 - log_parser.py [line:34] - DEBUG - 日志信息：case:加标成功,请求数据data:{'memberId': '1406', 'loanDateType': 0, 'title': 'test add,_15071177296', 'loanRate': '12.0', 'loanTerm': 3, 'biddingDays': 5, 'amount': 20000, 'repaymemtWay': 11},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-26 16:11:39,870 - log_parser.py [line:34] - DEBUG - 日志信息：case加标成功,加标后的loan条数198
+2019-04-26 16:11:39,926 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款日期期限为日，参数为2,加标前的loan条数198
+2019-04-26 16:11:40,062 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款日期期限为日，参数为2,请求数据data:{'memberId': '1406', 'loanDateType': '2', 'title': 'test add,_150测试', 'loanRate': '18.1', 'loanTerm': '6', 'biddingDays': '5', 'amount': '100000.00', 'repaymemtWay': '4'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-26 16:11:40,116 - log_parser.py [line:34] - DEBUG - 日志信息：case借款日期期限为日，参数为2,加标后的loan条数199
+2019-04-26 16:11:40,171 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款日期期限为月，参数为0,加标前的loan条数199
+2019-04-26 16:11:40,304 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款日期期限为月，参数为0,请求数据data:{'memberId': '1406', 'loanDateType': '0', 'title': 'test add,_15071177296', 'loanRate': '18.1', 'loanTerm': '6', 'biddingDays': '5', 'amount': '100000.00', 'repaymemtWay': '4'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-26 16:11:40,359 - log_parser.py [line:34] - DEBUG - 日志信息：case借款日期期限为月，参数为0,加标后的loan条数200
+2019-04-26 16:11:40,413 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款日期期限为周，参数为4,加标前的loan条数200
+2019-04-26 16:11:40,539 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款日期期限为周，参数为4,请求数据data:{'memberId': '1406', 'loanDateType': '4', 'title': 'test add,_15071177296', 'loanRate': '18.1', 'loanTerm': '6', 'biddingDays': '5', 'amount': '100000.00', 'repaymemtWay': '4'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-26 16:11:40,594 - log_parser.py [line:34] - DEBUG - 日志信息：case借款日期期限为周，参数为4,加标后的loan条数201
+2019-04-26 16:11:40,650 - log_parser.py [line:34] - DEBUG - 日志信息：case:一次性还款,加标前的loan条数201
+2019-04-26 16:11:40,772 - log_parser.py [line:34] - DEBUG - 日志信息：case:一次性还款,请求数据data:{'memberId': '1406', 'loanDateType': '0', 'title': 'test add,_15071177296', 'loanRate': '18.1', 'loanTerm': '6', 'biddingDays': '5', 'amount': '100000.00', 'repaymemtWay': '4'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-26 16:11:40,827 - log_parser.py [line:34] - DEBUG - 日志信息：case一次性还款,加标后的loan条数202
+2019-04-26 16:11:40,883 - log_parser.py [line:34] - DEBUG - 日志信息：case:按月等额本息,加标前的loan条数202
+2019-04-26 16:11:41,016 - log_parser.py [line:34] - DEBUG - 日志信息：case:按月等额本息,请求数据data:{'memberId': '1406', 'loanDateType': '0', 'title': 'test add,_15071177296', 'loanRate': '18.1', 'loanTerm': '6', 'biddingDays': '5', 'amount': '100000.00', 'repaymemtWay': '5'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-26 16:11:41,070 - log_parser.py [line:34] - DEBUG - 日志信息：case按月等额本息,加标后的loan条数203
+2019-04-26 16:11:41,126 - log_parser.py [line:34] - DEBUG - 日志信息：case:按月付息，到期还本,加标前的loan条数203
+2019-04-26 16:11:41,251 - log_parser.py [line:34] - DEBUG - 日志信息：case:按月付息，到期还本,请求数据data:{'memberId': '1406', 'loanDateType': '0', 'title': 'test add,_15071177296', 'loanRate': '18.1', 'loanTerm': '6', 'biddingDays': '5', 'amount': '100000.00', 'repaymemtWay': '11'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-26 16:11:41,305 - log_parser.py [line:34] - DEBUG - 日志信息：case按月付息，到期还本,加标后的loan条数204
+2019-04-26 16:11:41,426 - log_parser.py [line:34] - DEBUG - 日志信息：case:用户ID为小数,请求数据data:{'memberId': '20.2', 'loanDateType': '0', 'title': 'test add,_15071177296', 'loanRate': '18.1', 'loanTerm': '6', 'biddingDays': '6', 'amount': '100000.00', 'repaymemtWay': '4'},查询的sql:None,测试通过
+2019-04-26 16:11:41,548 - log_parser.py [line:34] - DEBUG - 日志信息：case:用户ID不存在,请求数据data:{'memberId': '99999', 'loanDateType': '0', 'title': 'test add,_15071177296', 'loanRate': '18.1', 'loanTerm': '6', 'biddingDays': '6', 'amount': '100000.00', 'repaymemtWay': '4'},查询的sql:None,测试通过
+2019-04-26 16:11:41,604 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款金额为1000,加标前的loan条数204
+2019-04-26 16:11:41,729 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款金额为1000,请求数据data:{'memberId': '1406', 'loanDateType': '0', 'title': 'test add,_15071177296', 'loanRate': '18.1', 'loanTerm': '6', 'biddingDays': '5', 'amount': '1000.00', 'repaymemtWay': '4'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-26 16:11:41,784 - log_parser.py [line:34] - DEBUG - 日志信息：case借款金额为1000,加标后的loan条数205
+2019-04-26 16:11:41,906 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款金额为1001,请求数据data:{'memberId': '1406', 'loanDateType': '0', 'title': 'test add,_15071177296', 'loanRate': '18.1', 'loanTerm': '6', 'biddingDays': '5', 'amount': '1001.00', 'repaymemtWay': '4'},查询的sql:None,测试通过
+2019-04-26 16:11:41,962 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款金额为1000.0,加标前的loan条数205
+2019-04-26 16:11:42,093 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款金额为1000.0,请求数据data:{'memberId': '1406', 'loanDateType': '0', 'title': 'test add,_15071177296', 'loanRate': '18.1', 'loanTerm': '6', 'biddingDays': '5', 'amount': '1000.00', 'repaymemtWay': '4'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-26 16:11:42,147 - log_parser.py [line:34] - DEBUG - 日志信息：case借款金额为1000.0,加标后的loan条数206
+2019-04-26 16:11:42,267 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款金额为-1,请求数据data:{'memberId': '1406', 'loanDateType': '0', 'title': 'test add,_15071177296', 'loanRate': '18.1', 'loanTerm': '6', 'biddingDays': '5', 'amount': '-1', 'repaymemtWay': '4'},查询的sql:None,测试通过
+2019-04-26 16:11:42,390 - log_parser.py [line:34] - DEBUG - 日志信息：case:年利率为-0.0,请求数据data:{'memberId': '1406', 'loanDateType': '0', 'title': 'test add,_15071177296', 'loanRate': '-0.0', 'loanTerm': '6', 'biddingDays': '5', 'amount': '1000', 'repaymemtWay': '4'},查询的sql:None,测试通过
+2019-04-26 16:11:42,513 - log_parser.py [line:34] - DEBUG - 日志信息：case:年利率为0,请求数据data:{'memberId': '1406', 'loanDateType': '0', 'title': 'test add,_15071177296', 'loanRate': '0', 'loanTerm': '6', 'biddingDays': '5', 'amount': '1000', 'repaymemtWay': '4'},查询的sql:None,测试通过
+2019-04-26 16:11:42,569 - log_parser.py [line:34] - DEBUG - 日志信息：case:年利率为24,加标前的loan条数206
+2019-04-26 16:11:42,692 - log_parser.py [line:34] - DEBUG - 日志信息：case:年利率为24,请求数据data:{'memberId': '1406', 'loanDateType': '0', 'title': 'test add,_15071177296', 'loanRate': '24', 'loanTerm': '6', 'biddingDays': '5', 'amount': '1000', 'repaymemtWay': '4'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-26 16:11:42,747 - log_parser.py [line:34] - DEBUG - 日志信息：case年利率为24,加标后的loan条数207
+2019-04-26 16:11:42,886 - log_parser.py [line:34] - DEBUG - 日志信息：case:年利率为25,请求数据data:{'memberId': '1406', 'loanDateType': '0', 'title': 'test add,_15071177296', 'loanRate': '25', 'loanTerm': '6', 'biddingDays': '5', 'amount': '1000', 'repaymemtWay': '4'},查询的sql:None,测试通过
+2019-04-26 16:11:43,008 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款日期期限为其他类型，参数为1,请求数据data:{'memberId': '1406', 'loanDateType': '5', 'title': 'test add,_15071177296', 'loanRate': '18.1', 'loanTerm': '6', 'biddingDays': '5', 'amount': '100000.00', 'repaymemtWay': '4'},查询的sql:None,测试通过
+2019-04-26 16:11:43,160 - log_parser.py [line:34] - DEBUG - 日志信息：case:其他还款方式,请求数据data:{'memberId': '1406', 'loanDateType': '0', 'title': 'test add,_15071177296', 'loanRate': '18.1', 'loanTerm': '6', 'biddingDays': '6', 'amount': '100000.00', 'repaymemtWay': '32'},查询的sql:None,测试失败
+2019-04-26 22:23:34,880 - log_parser.py [line:34] - DEBUG - 日志信息：case:正常登录,请求数据data:{'pwd': '123456', 'mobilephone': '15071177296'},查询的sql:None,测试通过
+2019-04-26 22:23:34,936 - log_parser.py [line:34] - DEBUG - 日志信息：case:加标成功,加标前的loan条数208
+2019-04-26 22:23:35,067 - log_parser.py [line:34] - DEBUG - 日志信息：case:加标成功,请求数据data:{'biddingDays': 5, 'amount': 20000, 'title': 'test add,_15071177296', 'memberId': '1406', 'repaymemtWay': 11, 'loanDateType': 0, 'loanTerm': 3, 'loanRate': '12.0'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-26 22:23:35,121 - log_parser.py [line:34] - DEBUG - 日志信息：case加标成功,加标后的loan条数209
+2019-04-26 22:23:35,174 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款日期期限为日，参数为2,加标前的loan条数209
+2019-04-26 22:23:35,298 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款日期期限为日，参数为2,请求数据data:{'biddingDays': '5', 'amount': '100000.00', 'title': 'test add,_150测试', 'memberId': '1406', 'repaymemtWay': '4', 'loanDateType': '2', 'loanTerm': '6', 'loanRate': '18.1'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-26 22:23:35,351 - log_parser.py [line:34] - DEBUG - 日志信息：case借款日期期限为日，参数为2,加标后的loan条数210
+2019-04-26 22:23:35,406 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款日期期限为月，参数为0,加标前的loan条数210
+2019-04-26 22:23:35,527 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款日期期限为月，参数为0,请求数据data:{'biddingDays': '5', 'amount': '100000.00', 'title': 'test add,_15071177296', 'memberId': '1406', 'repaymemtWay': '4', 'loanDateType': '0', 'loanTerm': '6', 'loanRate': '18.1'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-26 22:23:35,581 - log_parser.py [line:34] - DEBUG - 日志信息：case借款日期期限为月，参数为0,加标后的loan条数211
+2019-04-26 22:23:35,636 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款日期期限为周，参数为4,加标前的loan条数211
+2019-04-26 22:23:35,764 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款日期期限为周，参数为4,请求数据data:{'biddingDays': '5', 'amount': '100000.00', 'title': 'test add,_15071177296', 'memberId': '1406', 'repaymemtWay': '4', 'loanDateType': '4', 'loanTerm': '6', 'loanRate': '18.1'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-26 22:23:35,818 - log_parser.py [line:34] - DEBUG - 日志信息：case借款日期期限为周，参数为4,加标后的loan条数212
+2019-04-26 22:23:35,873 - log_parser.py [line:34] - DEBUG - 日志信息：case:一次性还款,加标前的loan条数212
+2019-04-26 22:23:36,002 - log_parser.py [line:34] - DEBUG - 日志信息：case:一次性还款,请求数据data:{'biddingDays': '5', 'amount': '100000.00', 'title': 'test add,_15071177296', 'memberId': '1406', 'repaymemtWay': '4', 'loanDateType': '0', 'loanTerm': '6', 'loanRate': '18.1'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-26 22:23:36,056 - log_parser.py [line:34] - DEBUG - 日志信息：case一次性还款,加标后的loan条数213
+2019-04-26 22:23:36,111 - log_parser.py [line:34] - DEBUG - 日志信息：case:按月等额本息,加标前的loan条数213
+2019-04-26 22:23:36,233 - log_parser.py [line:34] - DEBUG - 日志信息：case:按月等额本息,请求数据data:{'biddingDays': '5', 'amount': '100000.00', 'title': 'test add,_15071177296', 'memberId': '1406', 'repaymemtWay': '5', 'loanDateType': '0', 'loanTerm': '6', 'loanRate': '18.1'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-26 22:23:36,286 - log_parser.py [line:34] - DEBUG - 日志信息：case按月等额本息,加标后的loan条数214
+2019-04-26 22:23:36,341 - log_parser.py [line:34] - DEBUG - 日志信息：case:按月付息，到期还本,加标前的loan条数214
+2019-04-26 22:23:36,463 - log_parser.py [line:34] - DEBUG - 日志信息：case:按月付息，到期还本,请求数据data:{'biddingDays': '5', 'amount': '100000.00', 'title': 'test add,_15071177296', 'memberId': '1406', 'repaymemtWay': '11', 'loanDateType': '0', 'loanTerm': '6', 'loanRate': '18.1'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-26 22:23:36,517 - log_parser.py [line:34] - DEBUG - 日志信息：case按月付息，到期还本,加标后的loan条数215
+2019-04-26 22:23:36,635 - log_parser.py [line:34] - DEBUG - 日志信息：case:用户ID为小数,请求数据data:{'biddingDays': '6', 'amount': '100000.00', 'title': 'test add,_15071177296', 'memberId': '20.2', 'repaymemtWay': '4', 'loanDateType': '0', 'loanTerm': '6', 'loanRate': '18.1'},查询的sql:None,测试通过
+2019-04-26 22:23:36,755 - log_parser.py [line:34] - DEBUG - 日志信息：case:用户ID不存在,请求数据data:{'biddingDays': '6', 'amount': '100000.00', 'title': 'test add,_15071177296', 'memberId': '99999', 'repaymemtWay': '4', 'loanDateType': '0', 'loanTerm': '6', 'loanRate': '18.1'},查询的sql:None,测试通过
+2019-04-26 22:23:36,811 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款金额为1000,加标前的loan条数215
+2019-04-26 22:23:36,937 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款金额为1000,请求数据data:{'biddingDays': '5', 'amount': '1000.00', 'title': 'test add,_15071177296', 'memberId': '1406', 'repaymemtWay': '4', 'loanDateType': '0', 'loanTerm': '6', 'loanRate': '18.1'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-26 22:23:36,991 - log_parser.py [line:34] - DEBUG - 日志信息：case借款金额为1000,加标后的loan条数216
+2019-04-26 22:23:37,110 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款金额为1001,请求数据data:{'biddingDays': '5', 'amount': '1001.00', 'title': 'test add,_15071177296', 'memberId': '1406', 'repaymemtWay': '4', 'loanDateType': '0', 'loanTerm': '6', 'loanRate': '18.1'},查询的sql:None,测试通过
+2019-04-26 22:23:37,165 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款金额为1000.0,加标前的loan条数216
+2019-04-26 22:23:37,298 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款金额为1000.0,请求数据data:{'biddingDays': '5', 'amount': '1000.00', 'title': 'test add,_15071177296', 'memberId': '1406', 'repaymemtWay': '4', 'loanDateType': '0', 'loanTerm': '6', 'loanRate': '18.1'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-26 22:23:37,352 - log_parser.py [line:34] - DEBUG - 日志信息：case借款金额为1000.0,加标后的loan条数217
+2019-04-26 22:23:37,473 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款金额为-1,请求数据data:{'biddingDays': '5', 'amount': '-1', 'title': 'test add,_15071177296', 'memberId': '1406', 'repaymemtWay': '4', 'loanDateType': '0', 'loanTerm': '6', 'loanRate': '18.1'},查询的sql:None,测试通过
+2019-04-26 22:23:37,609 - log_parser.py [line:34] - DEBUG - 日志信息：case:年利率为-0.0,请求数据data:{'biddingDays': '5', 'amount': '1000', 'title': 'test add,_15071177296', 'memberId': '1406', 'repaymemtWay': '4', 'loanDateType': '0', 'loanTerm': '6', 'loanRate': '-0.0'},查询的sql:None,测试通过
+2019-04-26 22:23:37,730 - log_parser.py [line:34] - DEBUG - 日志信息：case:年利率为0,请求数据data:{'biddingDays': '5', 'amount': '1000', 'title': 'test add,_15071177296', 'memberId': '1406', 'repaymemtWay': '4', 'loanDateType': '0', 'loanTerm': '6', 'loanRate': '0'},查询的sql:None,测试通过
+2019-04-26 22:23:37,784 - log_parser.py [line:34] - DEBUG - 日志信息：case:年利率为24,加标前的loan条数217
+2019-04-26 22:23:37,909 - log_parser.py [line:34] - DEBUG - 日志信息：case:年利率为24,请求数据data:{'biddingDays': '5', 'amount': '1000', 'title': 'test add,_15071177296', 'memberId': '1406', 'repaymemtWay': '4', 'loanDateType': '0', 'loanTerm': '6', 'loanRate': '24'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-26 22:23:37,962 - log_parser.py [line:34] - DEBUG - 日志信息：case年利率为24,加标后的loan条数218
+2019-04-26 22:23:38,082 - log_parser.py [line:34] - DEBUG - 日志信息：case:年利率为25,请求数据data:{'biddingDays': '5', 'amount': '1000', 'title': 'test add,_15071177296', 'memberId': '1406', 'repaymemtWay': '4', 'loanDateType': '0', 'loanTerm': '6', 'loanRate': '25'},查询的sql:None,测试通过
+2019-04-26 22:23:38,201 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款日期期限为其他类型，参数为1,请求数据data:{'biddingDays': '5', 'amount': '100000.00', 'title': 'test add,_15071177296', 'memberId': '1406', 'repaymemtWay': '4', 'loanDateType': '5', 'loanTerm': '6', 'loanRate': '18.1'},查询的sql:None,测试通过
+2019-04-26 22:23:38,335 - log_parser.py [line:34] - DEBUG - 日志信息：case:其他还款方式,请求数据data:{'biddingDays': '6', 'amount': '100000.00', 'title': 'test add,_15071177296', 'memberId': '1406', 'repaymemtWay': '32', 'loanDateType': '0', 'loanTerm': '6', 'loanRate': '18.1'},查询的sql:None,测试失败
+2019-04-26 22:23:38,593 - log_parser.py [line:34] - DEBUG - 日志信息：case:正常登录,请求数据data:{'pwd': '123456', 'mobilephone': '15810447878'},测试通过
+2019-04-26 22:23:38,723 - log_parser.py [line:34] - DEBUG - 日志信息：case:密码错误,请求数据data:{'pwd': '12345', 'mobilephone': '15810447878'},测试通过
+2019-04-26 22:23:38,846 - log_parser.py [line:34] - DEBUG - 日志信息：case:用户名错误,请求数据data:{'pwd': '123456', 'mobilephone': '158104478783'},测试通过
+2019-04-26 22:23:38,963 - log_parser.py [line:34] - DEBUG - 日志信息：case:密码为空,请求数据data:{'pwd': '', 'mobilephone': '15810447878'},测试通过
+2019-04-26 22:23:39,081 - log_parser.py [line:34] - DEBUG - 日志信息：case:用户名为空,请求数据data:{'pwd': '123456', 'mobilephone': ''},测试通过
+2019-04-26 22:23:39,445 - log_parser.py [line:34] - DEBUG - 日志信息：case:该用户未登录,请求数据data:{'amount': '1000', 'mobilephone': '15810447879'},查询的sql:None,测试通过
+2019-04-26 22:23:39,672 - log_parser.py [line:34] - DEBUG - 日志信息：case:正常登录,请求数据data:{'pwd': '123456', 'mobilephone': '15810447878'},查询的sql:None,测试通过
+2019-04-26 22:23:39,999 - log_parser.py [line:34] - DEBUG - 日志信息：case:正常充值,请求数据data:{'amount': '1000', 'mobilephone': '15810447878'},查询的sql:select leaveamount from future.member where mobilephone = '15810447878',测试通过
+2019-04-26 22:23:40,215 - log_parser.py [line:34] - DEBUG - 日志信息：case:充值金额位负数,请求数据data:{'amount': '-1', 'mobilephone': '15810447878'},查询的sql:None,测试通过
+2019-04-26 22:23:40,423 - log_parser.py [line:34] - DEBUG - 日志信息：case:充值金额为大于50万,请求数据data:{'amount': '500000.01', 'mobilephone': '15810447878'},查询的sql:None,测试通过
+2019-04-26 22:23:40,633 - log_parser.py [line:34] - DEBUG - 日志信息：case:充值金额为空,请求数据data:{'amount': '', 'mobilephone': '15810447878'},查询的sql:None,测试通过
+2019-04-26 22:23:40,845 - log_parser.py [line:34] - DEBUG - 日志信息：case:会员不存在,请求数据data:{'amount': '1005', 'mobilephone': '18810447878'},查询的sql:None,测试通过
+2019-04-26 22:23:41,166 - log_parser.py [line:34] - DEBUG - 日志信息：case:正常注册,请求数据data:{'pwd': '123456', 'mobilephone': '18999994346'},查询的sql:select max(mobilephone) from future.member,测试通过
+2019-04-26 22:23:41,285 - log_parser.py [line:34] - DEBUG - 日志信息：case:会员名为空,请求数据data:{'pwd': '123457', 'mobilephone': ''},查询的sql:None,测试通过
+2019-04-26 22:23:41,405 - log_parser.py [line:34] - DEBUG - 日志信息：case:密码为空,请求数据data:{'pwd': '', 'mobilephone': '15810837678'},查询的sql:None,测试通过
+2019-04-26 22:23:41,524 - log_parser.py [line:34] - DEBUG - 日志信息：case:该会员已注册,请求数据data:{'pwd': '123459', 'mobilephone': '15810837678'},查询的sql:None,测试通过
+2019-04-26 22:23:41,662 - log_parser.py [line:34] - DEBUG - 日志信息：case:手机格式错误,请求数据data:{'pwd': '@123456556&', 'mobilephone': '158105484789'},查询的sql:None,测试通过
+2019-04-26 22:23:41,782 - log_parser.py [line:34] - DEBUG - 日志信息：case:密码位数等于超过16位,请求数据data:{'pwd': '@1555555555555523456556&', 'mobilephone': '15810548475'},查询的sql:None,测试通过
+2019-04-26 22:23:41,901 - log_parser.py [line:34] - DEBUG - 日志信息：case:密码位数等于6位,请求数据data:{'pwd': '11111', 'mobilephone': '15810548475'},查询的sql:None,测试通过
+2019-04-26 22:25:13,442 - log_parser.py [line:34] - DEBUG - 日志信息：case:正常登录,请求数据data:{'mobilephone': '15071177296', 'pwd': '123456'},查询的sql:None,测试通过
+2019-04-26 22:25:13,495 - log_parser.py [line:34] - DEBUG - 日志信息：case:加标成功,加标前的loan条数219
+2019-04-26 22:25:13,629 - log_parser.py [line:34] - DEBUG - 日志信息：case:加标成功,请求数据data:{'loanRate': '12.0', 'biddingDays': 5, 'title': 'test add,_15071177296', 'loanDateType': 0, 'amount': 20000, 'loanTerm': 3, 'memberId': '1406', 'repaymemtWay': 11},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-26 22:25:13,680 - log_parser.py [line:34] - DEBUG - 日志信息：case加标成功,加标后的loan条数220
+2019-04-26 22:25:13,732 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款日期期限为日，参数为2,加标前的loan条数220
+2019-04-26 22:25:13,856 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款日期期限为日，参数为2,请求数据data:{'loanRate': '18.1', 'biddingDays': '5', 'title': 'test add,_150测试', 'loanDateType': '2', 'amount': '100000.00', 'loanTerm': '6', 'memberId': '1406', 'repaymemtWay': '4'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-26 22:25:13,908 - log_parser.py [line:34] - DEBUG - 日志信息：case借款日期期限为日，参数为2,加标后的loan条数221
+2019-04-26 22:25:13,959 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款日期期限为月，参数为0,加标前的loan条数221
+2019-04-26 22:25:14,092 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款日期期限为月，参数为0,请求数据data:{'loanRate': '18.1', 'biddingDays': '5', 'title': 'test add,_15071177296', 'loanDateType': '0', 'amount': '100000.00', 'loanTerm': '6', 'memberId': '1406', 'repaymemtWay': '4'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-26 22:25:14,143 - log_parser.py [line:34] - DEBUG - 日志信息：case借款日期期限为月，参数为0,加标后的loan条数222
+2019-04-26 22:25:14,194 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款日期期限为周，参数为4,加标前的loan条数222
+2019-04-26 22:25:14,332 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款日期期限为周，参数为4,请求数据data:{'loanRate': '18.1', 'biddingDays': '5', 'title': 'test add,_15071177296', 'loanDateType': '4', 'amount': '100000.00', 'loanTerm': '6', 'memberId': '1406', 'repaymemtWay': '4'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-26 22:25:14,383 - log_parser.py [line:34] - DEBUG - 日志信息：case借款日期期限为周，参数为4,加标后的loan条数223
+2019-04-26 22:25:14,434 - log_parser.py [line:34] - DEBUG - 日志信息：case:一次性还款,加标前的loan条数223
+2019-04-26 22:25:14,565 - log_parser.py [line:34] - DEBUG - 日志信息：case:一次性还款,请求数据data:{'loanRate': '18.1', 'biddingDays': '5', 'title': 'test add,_15071177296', 'loanDateType': '0', 'amount': '100000.00', 'loanTerm': '6', 'memberId': '1406', 'repaymemtWay': '4'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-26 22:25:14,616 - log_parser.py [line:34] - DEBUG - 日志信息：case一次性还款,加标后的loan条数224
+2019-04-26 22:25:14,667 - log_parser.py [line:34] - DEBUG - 日志信息：case:按月等额本息,加标前的loan条数224
+2019-04-26 22:25:14,787 - log_parser.py [line:34] - DEBUG - 日志信息：case:按月等额本息,请求数据data:{'loanRate': '18.1', 'biddingDays': '5', 'title': 'test add,_15071177296', 'loanDateType': '0', 'amount': '100000.00', 'loanTerm': '6', 'memberId': '1406', 'repaymemtWay': '5'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-26 22:25:14,838 - log_parser.py [line:34] - DEBUG - 日志信息：case按月等额本息,加标后的loan条数225
+2019-04-26 22:25:14,891 - log_parser.py [line:34] - DEBUG - 日志信息：case:按月付息，到期还本,加标前的loan条数225
+2019-04-26 22:25:15,020 - log_parser.py [line:34] - DEBUG - 日志信息：case:按月付息，到期还本,请求数据data:{'loanRate': '18.1', 'biddingDays': '5', 'title': 'test add,_15071177296', 'loanDateType': '0', 'amount': '100000.00', 'loanTerm': '6', 'memberId': '1406', 'repaymemtWay': '11'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-26 22:25:15,070 - log_parser.py [line:34] - DEBUG - 日志信息：case按月付息，到期还本,加标后的loan条数226
+2019-04-26 22:25:15,186 - log_parser.py [line:34] - DEBUG - 日志信息：case:用户ID为小数,请求数据data:{'loanRate': '18.1', 'biddingDays': '6', 'title': 'test add,_15071177296', 'loanDateType': '0', 'amount': '100000.00', 'loanTerm': '6', 'memberId': '20.2', 'repaymemtWay': '4'},查询的sql:None,测试通过
+2019-04-26 22:25:15,304 - log_parser.py [line:34] - DEBUG - 日志信息：case:用户ID不存在,请求数据data:{'loanRate': '18.1', 'biddingDays': '6', 'title': 'test add,_15071177296', 'loanDateType': '0', 'amount': '100000.00', 'loanTerm': '6', 'memberId': '99999', 'repaymemtWay': '4'},查询的sql:None,测试通过
+2019-04-26 22:25:15,355 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款金额为1000,加标前的loan条数226
+2019-04-26 22:25:15,478 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款金额为1000,请求数据data:{'loanRate': '18.1', 'biddingDays': '5', 'title': 'test add,_15071177296', 'loanDateType': '0', 'amount': '1000.00', 'loanTerm': '6', 'memberId': '1406', 'repaymemtWay': '4'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-26 22:25:15,529 - log_parser.py [line:34] - DEBUG - 日志信息：case借款金额为1000,加标后的loan条数227
+2019-04-26 22:25:15,647 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款金额为1001,请求数据data:{'loanRate': '18.1', 'biddingDays': '5', 'title': 'test add,_15071177296', 'loanDateType': '0', 'amount': '1001.00', 'loanTerm': '6', 'memberId': '1406', 'repaymemtWay': '4'},查询的sql:None,测试通过
+2019-04-26 22:25:15,698 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款金额为1000.0,加标前的loan条数227
+2019-04-26 22:25:15,821 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款金额为1000.0,请求数据data:{'loanRate': '18.1', 'biddingDays': '5', 'title': 'test add,_15071177296', 'loanDateType': '0', 'amount': '1000.00', 'loanTerm': '6', 'memberId': '1406', 'repaymemtWay': '4'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-26 22:25:15,873 - log_parser.py [line:34] - DEBUG - 日志信息：case借款金额为1000.0,加标后的loan条数228
+2019-04-26 22:25:15,990 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款金额为-1,请求数据data:{'loanRate': '18.1', 'biddingDays': '5', 'title': 'test add,_15071177296', 'loanDateType': '0', 'amount': '-1', 'loanTerm': '6', 'memberId': '1406', 'repaymemtWay': '4'},查询的sql:None,测试通过
+2019-04-26 22:25:16,122 - log_parser.py [line:34] - DEBUG - 日志信息：case:年利率为-0.0,请求数据data:{'loanRate': '-0.0', 'biddingDays': '5', 'title': 'test add,_15071177296', 'loanDateType': '0', 'amount': '1000', 'loanTerm': '6', 'memberId': '1406', 'repaymemtWay': '4'},查询的sql:None,测试通过
+2019-04-26 22:25:16,238 - log_parser.py [line:34] - DEBUG - 日志信息：case:年利率为0,请求数据data:{'loanRate': '0', 'biddingDays': '5', 'title': 'test add,_15071177296', 'loanDateType': '0', 'amount': '1000', 'loanTerm': '6', 'memberId': '1406', 'repaymemtWay': '4'},查询的sql:None,测试通过
+2019-04-26 22:25:16,289 - log_parser.py [line:34] - DEBUG - 日志信息：case:年利率为24,加标前的loan条数228
+2019-04-26 22:25:16,425 - log_parser.py [line:34] - DEBUG - 日志信息：case:年利率为24,请求数据data:{'loanRate': '24', 'biddingDays': '5', 'title': 'test add,_15071177296', 'loanDateType': '0', 'amount': '1000', 'loanTerm': '6', 'memberId': '1406', 'repaymemtWay': '4'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-26 22:25:16,476 - log_parser.py [line:34] - DEBUG - 日志信息：case年利率为24,加标后的loan条数229
+2019-04-26 22:25:16,597 - log_parser.py [line:34] - DEBUG - 日志信息：case:年利率为25,请求数据data:{'loanRate': '25', 'biddingDays': '5', 'title': 'test add,_15071177296', 'loanDateType': '0', 'amount': '1000', 'loanTerm': '6', 'memberId': '1406', 'repaymemtWay': '4'},查询的sql:None,测试通过
+2019-04-26 22:25:16,717 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款日期期限为其他类型，参数为1,请求数据data:{'loanRate': '18.1', 'biddingDays': '5', 'title': 'test add,_15071177296', 'loanDateType': '5', 'amount': '100000.00', 'loanTerm': '6', 'memberId': '1406', 'repaymemtWay': '4'},查询的sql:None,测试通过
+2019-04-26 22:25:16,844 - log_parser.py [line:34] - DEBUG - 日志信息：case:其他还款方式,请求数据data:{'loanRate': '18.1', 'biddingDays': '6', 'title': 'test add,_15071177296', 'loanDateType': '0', 'amount': '100000.00', 'loanTerm': '6', 'memberId': '1406', 'repaymemtWay': '32'},查询的sql:None,测试失败
+2019-04-26 22:25:17,091 - log_parser.py [line:34] - DEBUG - 日志信息：case:正常登录,请求数据data:{'mobilephone': '15810447878', 'pwd': '123456'},测试通过
+2019-04-26 22:25:17,213 - log_parser.py [line:34] - DEBUG - 日志信息：case:密码错误,请求数据data:{'mobilephone': '15810447878', 'pwd': '12345'},测试通过
+2019-04-26 22:25:17,334 - log_parser.py [line:34] - DEBUG - 日志信息：case:用户名错误,请求数据data:{'mobilephone': '158104478783', 'pwd': '123456'},测试通过
+2019-04-26 22:25:17,455 - log_parser.py [line:34] - DEBUG - 日志信息：case:密码为空,请求数据data:{'mobilephone': '15810447878', 'pwd': ''},测试通过
+2019-04-26 22:25:17,572 - log_parser.py [line:34] - DEBUG - 日志信息：case:用户名为空,请求数据data:{'mobilephone': '', 'pwd': '123456'},测试通过
+2019-04-26 22:25:17,937 - log_parser.py [line:34] - DEBUG - 日志信息：case:该用户未登录,请求数据data:{'mobilephone': '15810447879', 'amount': '1000'},查询的sql:None,测试通过
+2019-04-26 22:25:18,163 - log_parser.py [line:34] - DEBUG - 日志信息：case:正常登录,请求数据data:{'mobilephone': '15810447878', 'pwd': '123456'},查询的sql:None,测试通过
+2019-04-26 22:25:18,491 - log_parser.py [line:34] - DEBUG - 日志信息：case:正常充值,请求数据data:{'mobilephone': '15810447878', 'amount': '1000'},查询的sql:select leaveamount from future.member where mobilephone = '15810447878',测试通过
+2019-04-26 22:25:18,701 - log_parser.py [line:34] - DEBUG - 日志信息：case:充值金额位负数,请求数据data:{'mobilephone': '15810447878', 'amount': '-1'},查询的sql:None,测试通过
+2019-04-26 22:25:18,911 - log_parser.py [line:34] - DEBUG - 日志信息：case:充值金额为大于50万,请求数据data:{'mobilephone': '15810447878', 'amount': '500000.01'},查询的sql:None,测试通过
+2019-04-26 22:25:19,120 - log_parser.py [line:34] - DEBUG - 日志信息：case:充值金额为空,请求数据data:{'mobilephone': '15810447878', 'amount': ''},查询的sql:None,测试通过
+2019-04-26 22:25:19,329 - log_parser.py [line:34] - DEBUG - 日志信息：case:会员不存在,请求数据data:{'mobilephone': '18810447878', 'amount': '1005'},查询的sql:None,测试通过
+2019-04-26 22:25:19,653 - log_parser.py [line:34] - DEBUG - 日志信息：case:正常注册,请求数据data:{'mobilephone': '18999997748', 'pwd': '123456'},查询的sql:select max(mobilephone) from future.member,测试通过
+2019-04-26 22:25:19,770 - log_parser.py [line:34] - DEBUG - 日志信息：case:会员名为空,请求数据data:{'mobilephone': '', 'pwd': '123457'},查询的sql:None,测试通过
+2019-04-26 22:25:19,890 - log_parser.py [line:34] - DEBUG - 日志信息：case:密码为空,请求数据data:{'mobilephone': '15810837678', 'pwd': ''},查询的sql:None,测试通过
+2019-04-26 22:25:20,012 - log_parser.py [line:34] - DEBUG - 日志信息：case:该会员已注册,请求数据data:{'mobilephone': '15810837678', 'pwd': '123459'},查询的sql:None,测试通过
+2019-04-26 22:25:20,147 - log_parser.py [line:34] - DEBUG - 日志信息：case:手机格式错误,请求数据data:{'mobilephone': '158105484789', 'pwd': '@123456556&'},查询的sql:None,测试通过
+2019-04-26 22:25:20,264 - log_parser.py [line:34] - DEBUG - 日志信息：case:密码位数等于超过16位,请求数据data:{'mobilephone': '15810548475', 'pwd': '@1555555555555523456556&'},查询的sql:None,测试通过
+2019-04-26 22:25:20,383 - log_parser.py [line:34] - DEBUG - 日志信息：case:密码位数等于6位,请求数据data:{'mobilephone': '15810548475', 'pwd': '11111'},查询的sql:None,测试通过
+2019-04-26 22:35:57,272 - log_parser.py [line:34] - DEBUG - 日志信息：case:正常登录,请求数据data:{'pwd': '123456', 'mobilephone': '15071177296'},查询的sql:None,测试通过
+2019-04-26 22:35:57,324 - log_parser.py [line:34] - DEBUG - 日志信息：case:加标成功,加标前的loan条数230
+2019-04-26 22:35:57,452 - log_parser.py [line:34] - DEBUG - 日志信息：case:加标成功,请求数据data:{'memberId': '1406', 'amount': 20000, 'loanRate': '12.0', 'loanTerm': 3, 'loanDateType': 0, 'repaymemtWay': 11, 'biddingDays': 5, 'title': 'test add,_15071177296'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-26 22:35:57,504 - log_parser.py [line:34] - DEBUG - 日志信息：case加标成功,加标后的loan条数231
+2019-04-26 22:35:57,557 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款日期期限为日，参数为2,加标前的loan条数231
+2019-04-26 22:35:57,677 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款日期期限为日，参数为2,请求数据data:{'memberId': '1406', 'amount': '100000.00', 'loanRate': '18.1', 'loanTerm': '6', 'loanDateType': '2', 'repaymemtWay': '4', 'biddingDays': '5', 'title': 'test add,_150测试'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-26 22:35:57,729 - log_parser.py [line:34] - DEBUG - 日志信息：case借款日期期限为日，参数为2,加标后的loan条数232
+2019-04-26 22:35:57,781 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款日期期限为月，参数为0,加标前的loan条数232
+2019-04-26 22:35:57,902 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款日期期限为月，参数为0,请求数据data:{'memberId': '1406', 'amount': '100000.00', 'loanRate': '18.1', 'loanTerm': '6', 'loanDateType': '0', 'repaymemtWay': '4', 'biddingDays': '5', 'title': 'test add,_15071177296'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-26 22:35:57,953 - log_parser.py [line:34] - DEBUG - 日志信息：case借款日期期限为月，参数为0,加标后的loan条数233
+2019-04-26 22:35:58,005 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款日期期限为周，参数为4,加标前的loan条数233
+2019-04-26 22:35:58,138 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款日期期限为周，参数为4,请求数据data:{'memberId': '1406', 'amount': '100000.00', 'loanRate': '18.1', 'loanTerm': '6', 'loanDateType': '4', 'repaymemtWay': '4', 'biddingDays': '5', 'title': 'test add,_15071177296'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-26 22:35:58,188 - log_parser.py [line:34] - DEBUG - 日志信息：case借款日期期限为周，参数为4,加标后的loan条数234
+2019-04-26 22:35:58,241 - log_parser.py [line:34] - DEBUG - 日志信息：case:一次性还款,加标前的loan条数234
+2019-04-26 22:35:58,361 - log_parser.py [line:34] - DEBUG - 日志信息：case:一次性还款,请求数据data:{'memberId': '1406', 'amount': '100000.00', 'loanRate': '18.1', 'loanTerm': '6', 'loanDateType': '0', 'repaymemtWay': '4', 'biddingDays': '5', 'title': 'test add,_15071177296'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-26 22:35:58,412 - log_parser.py [line:34] - DEBUG - 日志信息：case一次性还款,加标后的loan条数235
+2019-04-26 22:35:58,463 - log_parser.py [line:34] - DEBUG - 日志信息：case:按月等额本息,加标前的loan条数235
+2019-04-26 22:35:58,584 - log_parser.py [line:34] - DEBUG - 日志信息：case:按月等额本息,请求数据data:{'memberId': '1406', 'amount': '100000.00', 'loanRate': '18.1', 'loanTerm': '6', 'loanDateType': '0', 'repaymemtWay': '5', 'biddingDays': '5', 'title': 'test add,_15071177296'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-26 22:35:58,636 - log_parser.py [line:34] - DEBUG - 日志信息：case按月等额本息,加标后的loan条数236
+2019-04-26 22:35:58,687 - log_parser.py [line:34] - DEBUG - 日志信息：case:按月付息，到期还本,加标前的loan条数236
+2019-04-26 22:35:58,817 - log_parser.py [line:34] - DEBUG - 日志信息：case:按月付息，到期还本,请求数据data:{'memberId': '1406', 'amount': '100000.00', 'loanRate': '18.1', 'loanTerm': '6', 'loanDateType': '0', 'repaymemtWay': '11', 'biddingDays': '5', 'title': 'test add,_15071177296'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-26 22:35:58,868 - log_parser.py [line:34] - DEBUG - 日志信息：case按月付息，到期还本,加标后的loan条数237
+2019-04-26 22:35:58,987 - log_parser.py [line:34] - DEBUG - 日志信息：case:用户ID为小数,请求数据data:{'memberId': '20.2', 'amount': '100000.00', 'loanRate': '18.1', 'loanTerm': '6', 'loanDateType': '0', 'repaymemtWay': '4', 'biddingDays': '6', 'title': 'test add,_15071177296'},查询的sql:None,测试通过
+2019-04-26 22:35:59,105 - log_parser.py [line:34] - DEBUG - 日志信息：case:用户ID不存在,请求数据data:{'memberId': '99999', 'amount': '100000.00', 'loanRate': '18.1', 'loanTerm': '6', 'loanDateType': '0', 'repaymemtWay': '4', 'biddingDays': '6', 'title': 'test add,_15071177296'},查询的sql:None,测试通过
+2019-04-26 22:35:59,157 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款金额为1000,加标前的loan条数237
+2019-04-26 22:35:59,290 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款金额为1000,请求数据data:{'memberId': '1406', 'amount': '1000.00', 'loanRate': '18.1', 'loanTerm': '6', 'loanDateType': '0', 'repaymemtWay': '4', 'biddingDays': '5', 'title': 'test add,_15071177296'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-26 22:35:59,341 - log_parser.py [line:34] - DEBUG - 日志信息：case借款金额为1000,加标后的loan条数238
+2019-04-26 22:35:59,463 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款金额为1001,请求数据data:{'memberId': '1406', 'amount': '1001.00', 'loanRate': '18.1', 'loanTerm': '6', 'loanDateType': '0', 'repaymemtWay': '4', 'biddingDays': '5', 'title': 'test add,_15071177296'},查询的sql:None,测试通过
+2019-04-26 22:35:59,515 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款金额为1000.0,加标前的loan条数238
+2019-04-26 22:35:59,638 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款金额为1000.0,请求数据data:{'memberId': '1406', 'amount': '1000.00', 'loanRate': '18.1', 'loanTerm': '6', 'loanDateType': '0', 'repaymemtWay': '4', 'biddingDays': '5', 'title': 'test add,_15071177296'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-26 22:35:59,688 - log_parser.py [line:34] - DEBUG - 日志信息：case借款金额为1000.0,加标后的loan条数239
+2019-04-26 22:35:59,806 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款金额为-1,请求数据data:{'memberId': '1406', 'amount': '-1', 'loanRate': '18.1', 'loanTerm': '6', 'loanDateType': '0', 'repaymemtWay': '4', 'biddingDays': '5', 'title': 'test add,_15071177296'},查询的sql:None,测试通过
+2019-04-26 22:35:59,939 - log_parser.py [line:34] - DEBUG - 日志信息：case:年利率为-0.0,请求数据data:{'memberId': '1406', 'amount': '1000', 'loanRate': '-0.0', 'loanTerm': '6', 'loanDateType': '0', 'repaymemtWay': '4', 'biddingDays': '5', 'title': 'test add,_15071177296'},查询的sql:None,测试通过
+2019-04-26 22:36:00,057 - log_parser.py [line:34] - DEBUG - 日志信息：case:年利率为0,请求数据data:{'memberId': '1406', 'amount': '1000', 'loanRate': '0', 'loanTerm': '6', 'loanDateType': '0', 'repaymemtWay': '4', 'biddingDays': '5', 'title': 'test add,_15071177296'},查询的sql:None,测试通过
+2019-04-26 22:36:00,109 - log_parser.py [line:34] - DEBUG - 日志信息：case:年利率为24,加标前的loan条数239
+2019-04-26 22:36:00,475 - log_parser.py [line:34] - DEBUG - 日志信息：case:年利率为24,请求数据data:{'memberId': '1406', 'amount': '1000', 'loanRate': '24', 'loanTerm': '6', 'loanDateType': '0', 'repaymemtWay': '4', 'biddingDays': '5', 'title': 'test add,_15071177296'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-26 22:36:00,526 - log_parser.py [line:34] - DEBUG - 日志信息：case年利率为24,加标后的loan条数240
+2019-04-26 22:36:00,641 - log_parser.py [line:34] - DEBUG - 日志信息：case:年利率为25,请求数据data:{'memberId': '1406', 'amount': '1000', 'loanRate': '25', 'loanTerm': '6', 'loanDateType': '0', 'repaymemtWay': '4', 'biddingDays': '5', 'title': 'test add,_15071177296'},查询的sql:None,测试通过
+2019-04-26 22:36:00,759 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款日期期限为其他类型，参数为1,请求数据data:{'memberId': '1406', 'amount': '100000.00', 'loanRate': '18.1', 'loanTerm': '6', 'loanDateType': '5', 'repaymemtWay': '4', 'biddingDays': '5', 'title': 'test add,_15071177296'},查询的sql:None,测试通过
+2019-04-26 22:36:00,884 - log_parser.py [line:34] - DEBUG - 日志信息：case:其他还款方式,请求数据data:{'memberId': '1406', 'amount': '100000.00', 'loanRate': '18.1', 'loanTerm': '6', 'loanDateType': '0', 'repaymemtWay': '32', 'biddingDays': '6', 'title': 'test add,_15071177296'},查询的sql:None,测试失败
+2019-04-26 22:36:01,127 - log_parser.py [line:34] - DEBUG - 日志信息：case:正常登录,请求数据data:{'pwd': '123456', 'mobilephone': '15810447878'},测试通过
+2019-04-26 22:36:01,247 - log_parser.py [line:34] - DEBUG - 日志信息：case:密码错误,请求数据data:{'pwd': '12345', 'mobilephone': '15810447878'},测试通过
+2019-04-26 22:36:01,366 - log_parser.py [line:34] - DEBUG - 日志信息：case:用户名错误,请求数据data:{'pwd': '123456', 'mobilephone': '158104478783'},测试通过
+2019-04-26 22:36:01,483 - log_parser.py [line:34] - DEBUG - 日志信息：case:密码为空,请求数据data:{'pwd': '', 'mobilephone': '15810447878'},测试通过
+2019-04-26 22:36:01,598 - log_parser.py [line:34] - DEBUG - 日志信息：case:用户名为空,请求数据data:{'pwd': '123456', 'mobilephone': ''},测试通过
+2019-04-26 22:36:02,018 - log_parser.py [line:34] - DEBUG - 日志信息：case:该用户未登录,请求数据data:{'amount': '1000', 'mobilephone': '15810447879'},查询的sql:None,测试通过
+2019-04-26 22:36:02,238 - log_parser.py [line:34] - DEBUG - 日志信息：case:正常登录,请求数据data:{'pwd': '123456', 'mobilephone': '15810447878'},查询的sql:None,测试通过
+2019-04-26 22:36:02,565 - log_parser.py [line:34] - DEBUG - 日志信息：case:正常充值,请求数据data:{'amount': '1000', 'mobilephone': '15810447878'},查询的sql:select leaveamount from future.member where mobilephone = '15810447878',测试通过
+2019-04-26 22:36:02,769 - log_parser.py [line:34] - DEBUG - 日志信息：case:充值金额位负数,请求数据data:{'amount': '-1', 'mobilephone': '15810447878'},查询的sql:None,测试通过
+2019-04-26 22:36:02,975 - log_parser.py [line:34] - DEBUG - 日志信息：case:充值金额为大于50万,请求数据data:{'amount': '500000.01', 'mobilephone': '15810447878'},查询的sql:None,测试通过
+2019-04-26 22:36:03,177 - log_parser.py [line:34] - DEBUG - 日志信息：case:充值金额为空,请求数据data:{'amount': '', 'mobilephone': '15810447878'},查询的sql:None,测试通过
+2019-04-26 22:36:03,384 - log_parser.py [line:34] - DEBUG - 日志信息：case:会员不存在,请求数据data:{'amount': '1005', 'mobilephone': '18810447878'},查询的sql:None,测试通过
+2019-04-26 22:36:03,697 - log_parser.py [line:34] - DEBUG - 日志信息：case:正常注册,请求数据data:{'pwd': '123456', 'mobilephone': '18999997366'},查询的sql:select max(mobilephone) from future.member,测试通过
+2019-04-26 22:36:03,813 - log_parser.py [line:34] - DEBUG - 日志信息：case:会员名为空,请求数据data:{'pwd': '123457', 'mobilephone': ''},查询的sql:None,测试通过
+2019-04-26 22:36:03,931 - log_parser.py [line:34] - DEBUG - 日志信息：case:密码为空,请求数据data:{'pwd': '', 'mobilephone': '15810837678'},查询的sql:None,测试通过
+2019-04-26 22:36:04,051 - log_parser.py [line:34] - DEBUG - 日志信息：case:该会员已注册,请求数据data:{'pwd': '123459', 'mobilephone': '15810837678'},查询的sql:None,测试通过
+2019-04-26 22:36:04,185 - log_parser.py [line:34] - DEBUG - 日志信息：case:手机格式错误,请求数据data:{'pwd': '@123456556&', 'mobilephone': '158105484789'},查询的sql:None,测试通过
+2019-04-26 22:36:04,303 - log_parser.py [line:34] - DEBUG - 日志信息：case:密码位数等于超过16位,请求数据data:{'pwd': '@1555555555555523456556&', 'mobilephone': '15810548475'},查询的sql:None,测试通过
+2019-04-26 22:36:04,419 - log_parser.py [line:34] - DEBUG - 日志信息：case:密码位数等于6位,请求数据data:{'pwd': '11111', 'mobilephone': '15810548475'},查询的sql:None,测试通过
+2019-04-26 22:38:19,109 - log_parser.py [line:34] - DEBUG - 日志信息：case:正常登录,请求数据data:{'pwd': '123456', 'mobilephone': '15071177296'},查询的sql:None,测试通过
+2019-04-26 22:38:19,165 - log_parser.py [line:34] - DEBUG - 日志信息：case:加标成功,加标前的loan条数242
+2019-04-26 22:38:19,300 - log_parser.py [line:34] - DEBUG - 日志信息：case:加标成功,请求数据data:{'title': 'test add,_15071177296', 'memberId': '1406', 'repaymemtWay': 11, 'amount': 20000, 'loanDateType': 0, 'loanRate': '12.0', 'biddingDays': 5, 'loanTerm': 3},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-26 22:38:19,356 - log_parser.py [line:34] - DEBUG - 日志信息：case加标成功,加标后的loan条数243
+2019-04-26 22:38:19,412 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款日期期限为日，参数为2,加标前的loan条数243
+2019-04-26 22:38:19,537 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款日期期限为日，参数为2,请求数据data:{'title': 'test add,_150测试', 'memberId': '1406', 'repaymemtWay': '4', 'amount': '100000.00', 'loanDateType': '2', 'loanRate': '18.1', 'biddingDays': '5', 'loanTerm': '6'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-26 22:38:19,593 - log_parser.py [line:34] - DEBUG - 日志信息：case借款日期期限为日，参数为2,加标后的loan条数244
+2019-04-26 22:38:19,650 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款日期期限为月，参数为0,加标前的loan条数244
+2019-04-26 22:38:19,778 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款日期期限为月，参数为0,请求数据data:{'title': 'test add,_15071177296', 'memberId': '1406', 'repaymemtWay': '4', 'amount': '100000.00', 'loanDateType': '0', 'loanRate': '18.1', 'biddingDays': '5', 'loanTerm': '6'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-26 22:38:19,834 - log_parser.py [line:34] - DEBUG - 日志信息：case借款日期期限为月，参数为0,加标后的loan条数245
+2019-04-26 22:38:19,888 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款日期期限为周，参数为4,加标前的loan条数245
+2019-04-26 22:38:20,024 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款日期期限为周，参数为4,请求数据data:{'title': 'test add,_15071177296', 'memberId': '1406', 'repaymemtWay': '4', 'amount': '100000.00', 'loanDateType': '4', 'loanRate': '18.1', 'biddingDays': '5', 'loanTerm': '6'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-26 22:38:20,080 - log_parser.py [line:34] - DEBUG - 日志信息：case借款日期期限为周，参数为4,加标后的loan条数246
+2019-04-26 22:38:20,136 - log_parser.py [line:34] - DEBUG - 日志信息：case:一次性还款,加标前的loan条数246
+2019-04-26 22:38:20,517 - log_parser.py [line:34] - DEBUG - 日志信息：case:一次性还款,请求数据data:{'title': 'test add,_15071177296', 'memberId': '1406', 'repaymemtWay': '4', 'amount': '100000.00', 'loanDateType': '0', 'loanRate': '18.1', 'biddingDays': '5', 'loanTerm': '6'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-26 22:38:20,574 - log_parser.py [line:34] - DEBUG - 日志信息：case一次性还款,加标后的loan条数247
+2019-04-26 22:38:20,629 - log_parser.py [line:34] - DEBUG - 日志信息：case:按月等额本息,加标前的loan条数247
+2019-04-26 22:38:20,754 - log_parser.py [line:34] - DEBUG - 日志信息：case:按月等额本息,请求数据data:{'title': 'test add,_15071177296', 'memberId': '1406', 'repaymemtWay': '5', 'amount': '100000.00', 'loanDateType': '0', 'loanRate': '18.1', 'biddingDays': '5', 'loanTerm': '6'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-26 22:38:20,809 - log_parser.py [line:34] - DEBUG - 日志信息：case按月等额本息,加标后的loan条数248
+2019-04-26 22:38:20,867 - log_parser.py [line:34] - DEBUG - 日志信息：case:按月付息，到期还本,加标前的loan条数248
+2019-04-26 22:38:20,997 - log_parser.py [line:34] - DEBUG - 日志信息：case:按月付息，到期还本,请求数据data:{'title': 'test add,_15071177296', 'memberId': '1406', 'repaymemtWay': '11', 'amount': '100000.00', 'loanDateType': '0', 'loanRate': '18.1', 'biddingDays': '5', 'loanTerm': '6'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-26 22:38:21,052 - log_parser.py [line:34] - DEBUG - 日志信息：case按月付息，到期还本,加标后的loan条数249
+2019-04-26 22:38:21,170 - log_parser.py [line:34] - DEBUG - 日志信息：case:用户ID为小数,请求数据data:{'title': 'test add,_15071177296', 'memberId': '20.2', 'repaymemtWay': '4', 'amount': '100000.00', 'loanDateType': '0', 'loanRate': '18.1', 'biddingDays': '6', 'loanTerm': '6'},查询的sql:None,测试通过
+2019-04-26 22:38:21,288 - log_parser.py [line:34] - DEBUG - 日志信息：case:用户ID不存在,请求数据data:{'title': 'test add,_15071177296', 'memberId': '99999', 'repaymemtWay': '4', 'amount': '100000.00', 'loanDateType': '0', 'loanRate': '18.1', 'biddingDays': '6', 'loanTerm': '6'},查询的sql:None,测试通过
+2019-04-26 22:38:21,343 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款金额为1000,加标前的loan条数249
+2019-04-26 22:38:21,466 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款金额为1000,请求数据data:{'title': 'test add,_15071177296', 'memberId': '1406', 'repaymemtWay': '4', 'amount': '1000.00', 'loanDateType': '0', 'loanRate': '18.1', 'biddingDays': '5', 'loanTerm': '6'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-26 22:38:21,521 - log_parser.py [line:34] - DEBUG - 日志信息：case借款金额为1000,加标后的loan条数250
+2019-04-26 22:38:21,641 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款金额为1001,请求数据data:{'title': 'test add,_15071177296', 'memberId': '1406', 'repaymemtWay': '4', 'amount': '1001.00', 'loanDateType': '0', 'loanRate': '18.1', 'biddingDays': '5', 'loanTerm': '6'},查询的sql:None,测试通过
+2019-04-26 22:38:21,697 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款金额为1000.0,加标前的loan条数250
+2019-04-26 22:38:21,822 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款金额为1000.0,请求数据data:{'title': 'test add,_15071177296', 'memberId': '1406', 'repaymemtWay': '4', 'amount': '1000.00', 'loanDateType': '0', 'loanRate': '18.1', 'biddingDays': '5', 'loanTerm': '6'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-26 22:38:21,878 - log_parser.py [line:34] - DEBUG - 日志信息：case借款金额为1000.0,加标后的loan条数251
+2019-04-26 22:38:21,997 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款金额为-1,请求数据data:{'title': 'test add,_15071177296', 'memberId': '1406', 'repaymemtWay': '4', 'amount': '-1', 'loanDateType': '0', 'loanRate': '18.1', 'biddingDays': '5', 'loanTerm': '6'},查询的sql:None,测试通过
+2019-04-26 22:38:22,131 - log_parser.py [line:34] - DEBUG - 日志信息：case:年利率为-0.0,请求数据data:{'title': 'test add,_15071177296', 'memberId': '1406', 'repaymemtWay': '4', 'amount': '1000', 'loanDateType': '0', 'loanRate': '-0.0', 'biddingDays': '5', 'loanTerm': '6'},查询的sql:None,测试通过
+2019-04-26 22:38:22,249 - log_parser.py [line:34] - DEBUG - 日志信息：case:年利率为0,请求数据data:{'title': 'test add,_15071177296', 'memberId': '1406', 'repaymemtWay': '4', 'amount': '1000', 'loanDateType': '0', 'loanRate': '0', 'biddingDays': '5', 'loanTerm': '6'},查询的sql:None,测试通过
+2019-04-26 22:38:22,305 - log_parser.py [line:34] - DEBUG - 日志信息：case:年利率为24,加标前的loan条数251
+2019-04-26 22:38:22,441 - log_parser.py [line:34] - DEBUG - 日志信息：case:年利率为24,请求数据data:{'title': 'test add,_15071177296', 'memberId': '1406', 'repaymemtWay': '4', 'amount': '1000', 'loanDateType': '0', 'loanRate': '24', 'biddingDays': '5', 'loanTerm': '6'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-26 22:38:22,495 - log_parser.py [line:34] - DEBUG - 日志信息：case年利率为24,加标后的loan条数252
+2019-04-26 22:38:22,614 - log_parser.py [line:34] - DEBUG - 日志信息：case:年利率为25,请求数据data:{'title': 'test add,_15071177296', 'memberId': '1406', 'repaymemtWay': '4', 'amount': '1000', 'loanDateType': '0', 'loanRate': '25', 'biddingDays': '5', 'loanTerm': '6'},查询的sql:None,测试通过
+2019-04-26 22:38:22,734 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款日期期限为其他类型，参数为1,请求数据data:{'title': 'test add,_15071177296', 'memberId': '1406', 'repaymemtWay': '4', 'amount': '100000.00', 'loanDateType': '5', 'loanRate': '18.1', 'biddingDays': '5', 'loanTerm': '6'},查询的sql:None,测试通过
+2019-04-26 22:38:22,858 - log_parser.py [line:34] - DEBUG - 日志信息：case:其他还款方式,请求数据data:{'title': 'test add,_15071177296', 'memberId': '1406', 'repaymemtWay': '32', 'amount': '100000.00', 'loanDateType': '0', 'loanRate': '18.1', 'biddingDays': '6', 'loanTerm': '6'},查询的sql:None,测试失败
+2019-04-26 22:38:25,262 - log_parser.py [line:34] - DEBUG - 日志信息：case:正常登录,请求数据data:{'pwd': '123456', 'mobilephone': '15810447878'},测试通过
+2019-04-26 22:38:25,381 - log_parser.py [line:34] - DEBUG - 日志信息：case:密码错误,请求数据data:{'pwd': '12345', 'mobilephone': '15810447878'},测试通过
+2019-04-26 22:38:25,499 - log_parser.py [line:34] - DEBUG - 日志信息：case:用户名错误,请求数据data:{'pwd': '123456', 'mobilephone': '158104478783'},测试通过
+2019-04-26 22:38:25,616 - log_parser.py [line:34] - DEBUG - 日志信息：case:密码为空,请求数据data:{'pwd': '', 'mobilephone': '15810447878'},测试通过
+2019-04-26 22:38:25,734 - log_parser.py [line:34] - DEBUG - 日志信息：case:用户名为空,请求数据data:{'pwd': '123456', 'mobilephone': ''},测试通过
+2019-04-26 22:38:26,150 - log_parser.py [line:34] - DEBUG - 日志信息：case:该用户未登录,请求数据data:{'amount': '1000', 'mobilephone': '15810447879'},查询的sql:None,测试通过
+2019-04-26 22:38:26,355 - log_parser.py [line:34] - DEBUG - 日志信息：case:正常登录,请求数据data:{'pwd': '123456', 'mobilephone': '15810447878'},查询的sql:None,测试通过
+2019-04-26 22:38:26,675 - log_parser.py [line:34] - DEBUG - 日志信息：case:正常充值,请求数据data:{'amount': '1000', 'mobilephone': '15810447878'},查询的sql:select leaveamount from future.member where mobilephone = '15810447878',测试通过
+2019-04-26 22:38:26,879 - log_parser.py [line:34] - DEBUG - 日志信息：case:充值金额位负数,请求数据data:{'amount': '-1', 'mobilephone': '15810447878'},查询的sql:None,测试通过
+2019-04-26 22:38:27,083 - log_parser.py [line:34] - DEBUG - 日志信息：case:充值金额为大于50万,请求数据data:{'amount': '500000.01', 'mobilephone': '15810447878'},查询的sql:None,测试通过
+2019-04-26 22:38:27,286 - log_parser.py [line:34] - DEBUG - 日志信息：case:充值金额为空,请求数据data:{'amount': '', 'mobilephone': '15810447878'},查询的sql:None,测试通过
+2019-04-26 22:38:27,490 - log_parser.py [line:34] - DEBUG - 日志信息：case:会员不存在,请求数据data:{'amount': '1005', 'mobilephone': '18810447878'},查询的sql:None,测试通过
+2019-04-26 22:38:27,794 - log_parser.py [line:34] - DEBUG - 日志信息：case:正常注册,请求数据data:{'pwd': '123456', 'mobilephone': '18999997201'},查询的sql:select max(mobilephone) from future.member,测试通过
+2019-04-26 22:38:27,910 - log_parser.py [line:34] - DEBUG - 日志信息：case:会员名为空,请求数据data:{'pwd': '123457', 'mobilephone': ''},查询的sql:None,测试通过
+2019-04-26 22:38:28,044 - log_parser.py [line:34] - DEBUG - 日志信息：case:密码为空,请求数据data:{'pwd': '', 'mobilephone': '15810837678'},查询的sql:None,测试通过
+2019-04-26 22:38:28,160 - log_parser.py [line:34] - DEBUG - 日志信息：case:该会员已注册,请求数据data:{'pwd': '123459', 'mobilephone': '15810837678'},查询的sql:None,测试通过
+2019-04-26 22:38:28,276 - log_parser.py [line:34] - DEBUG - 日志信息：case:手机格式错误,请求数据data:{'pwd': '@123456556&', 'mobilephone': '158105484789'},查询的sql:None,测试通过
+2019-04-26 22:38:28,393 - log_parser.py [line:34] - DEBUG - 日志信息：case:密码位数等于超过16位,请求数据data:{'pwd': '@1555555555555523456556&', 'mobilephone': '15810548475'},查询的sql:None,测试通过
+2019-04-26 22:38:28,507 - log_parser.py [line:34] - DEBUG - 日志信息：case:密码位数等于6位,请求数据data:{'pwd': '11111', 'mobilephone': '15810548475'},查询的sql:None,测试通过
+2019-04-26 22:40:02,535 - log_parser.py [line:34] - DEBUG - 日志信息：case:正常登录,请求数据data:{'pwd': '123456', 'mobilephone': '15071177296'},查询的sql:None,测试通过
+2019-04-26 22:40:02,590 - log_parser.py [line:34] - DEBUG - 日志信息：case:加标成功,加标前的loan条数254
+2019-04-26 22:40:02,720 - log_parser.py [line:34] - DEBUG - 日志信息：case:加标成功,请求数据data:{'repaymemtWay': 11, 'amount': 20000, 'loanTerm': 3, 'loanRate': '12.0', 'memberId': '1406', 'title': 'test add,_15071177296', 'loanDateType': 0, 'biddingDays': 5},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-26 22:40:02,775 - log_parser.py [line:34] - DEBUG - 日志信息：case加标成功,加标后的loan条数255
+2019-04-26 22:40:02,830 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款日期期限为日，参数为2,加标前的loan条数255
+2019-04-26 22:40:02,951 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款日期期限为日，参数为2,请求数据data:{'repaymemtWay': '4', 'amount': '100000.00', 'loanTerm': '6', 'loanRate': '18.1', 'memberId': '1406', 'title': 'test add,_150测试', 'loanDateType': '2', 'biddingDays': '5'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-26 22:40:03,005 - log_parser.py [line:34] - DEBUG - 日志信息：case借款日期期限为日，参数为2,加标后的loan条数256
+2019-04-26 22:40:03,061 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款日期期限为月，参数为0,加标前的loan条数256
+2019-04-26 22:40:03,191 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款日期期限为月，参数为0,请求数据data:{'repaymemtWay': '4', 'amount': '100000.00', 'loanTerm': '6', 'loanRate': '18.1', 'memberId': '1406', 'title': 'test add,_15071177296', 'loanDateType': '0', 'biddingDays': '5'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-26 22:40:03,247 - log_parser.py [line:34] - DEBUG - 日志信息：case借款日期期限为月，参数为0,加标后的loan条数257
+2019-04-26 22:40:03,302 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款日期期限为周，参数为4,加标前的loan条数257
+2019-04-26 22:40:03,427 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款日期期限为周，参数为4,请求数据data:{'repaymemtWay': '4', 'amount': '100000.00', 'loanTerm': '6', 'loanRate': '18.1', 'memberId': '1406', 'title': 'test add,_15071177296', 'loanDateType': '4', 'biddingDays': '5'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-26 22:40:03,482 - log_parser.py [line:34] - DEBUG - 日志信息：case借款日期期限为周，参数为4,加标后的loan条数258
+2019-04-26 22:40:03,538 - log_parser.py [line:34] - DEBUG - 日志信息：case:一次性还款,加标前的loan条数258
+2019-04-26 22:40:03,660 - log_parser.py [line:34] - DEBUG - 日志信息：case:一次性还款,请求数据data:{'repaymemtWay': '4', 'amount': '100000.00', 'loanTerm': '6', 'loanRate': '18.1', 'memberId': '1406', 'title': 'test add,_15071177296', 'loanDateType': '0', 'biddingDays': '5'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-26 22:40:03,714 - log_parser.py [line:34] - DEBUG - 日志信息：case一次性还款,加标后的loan条数259
+2019-04-26 22:40:03,769 - log_parser.py [line:34] - DEBUG - 日志信息：case:按月等额本息,加标前的loan条数259
+2019-04-26 22:40:03,890 - log_parser.py [line:34] - DEBUG - 日志信息：case:按月等额本息,请求数据data:{'repaymemtWay': '5', 'amount': '100000.00', 'loanTerm': '6', 'loanRate': '18.1', 'memberId': '1406', 'title': 'test add,_15071177296', 'loanDateType': '0', 'biddingDays': '5'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-26 22:40:03,946 - log_parser.py [line:34] - DEBUG - 日志信息：case按月等额本息,加标后的loan条数260
+2019-04-26 22:40:04,002 - log_parser.py [line:34] - DEBUG - 日志信息：case:按月付息，到期还本,加标前的loan条数260
+2019-04-26 22:40:04,127 - log_parser.py [line:34] - DEBUG - 日志信息：case:按月付息，到期还本,请求数据data:{'repaymemtWay': '11', 'amount': '100000.00', 'loanTerm': '6', 'loanRate': '18.1', 'memberId': '1406', 'title': 'test add,_15071177296', 'loanDateType': '0', 'biddingDays': '5'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-26 22:40:04,183 - log_parser.py [line:34] - DEBUG - 日志信息：case按月付息，到期还本,加标后的loan条数261
+2019-04-26 22:40:04,300 - log_parser.py [line:34] - DEBUG - 日志信息：case:用户ID为小数,请求数据data:{'repaymemtWay': '4', 'amount': '100000.00', 'loanTerm': '6', 'loanRate': '18.1', 'memberId': '20.2', 'title': 'test add,_15071177296', 'loanDateType': '0', 'biddingDays': '6'},查询的sql:None,测试通过
+2019-04-26 22:40:04,419 - log_parser.py [line:34] - DEBUG - 日志信息：case:用户ID不存在,请求数据data:{'repaymemtWay': '4', 'amount': '100000.00', 'loanTerm': '6', 'loanRate': '18.1', 'memberId': '99999', 'title': 'test add,_15071177296', 'loanDateType': '0', 'biddingDays': '6'},查询的sql:None,测试通过
+2019-04-26 22:40:04,474 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款金额为1000,加标前的loan条数261
+2019-04-26 22:40:04,596 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款金额为1000,请求数据data:{'repaymemtWay': '4', 'amount': '1000.00', 'loanTerm': '6', 'loanRate': '18.1', 'memberId': '1406', 'title': 'test add,_15071177296', 'loanDateType': '0', 'biddingDays': '5'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-26 22:40:04,651 - log_parser.py [line:34] - DEBUG - 日志信息：case借款金额为1000,加标后的loan条数262
+2019-04-26 22:40:04,771 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款金额为1001,请求数据data:{'repaymemtWay': '4', 'amount': '1001.00', 'loanTerm': '6', 'loanRate': '18.1', 'memberId': '1406', 'title': 'test add,_15071177296', 'loanDateType': '0', 'biddingDays': '5'},查询的sql:None,测试通过
+2019-04-26 22:40:04,827 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款金额为1000.0,加标前的loan条数262
+2019-04-26 22:40:04,949 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款金额为1000.0,请求数据data:{'repaymemtWay': '4', 'amount': '1000.00', 'loanTerm': '6', 'loanRate': '18.1', 'memberId': '1406', 'title': 'test add,_15071177296', 'loanDateType': '0', 'biddingDays': '5'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-26 22:40:05,004 - log_parser.py [line:34] - DEBUG - 日志信息：case借款金额为1000.0,加标后的loan条数263
+2019-04-26 22:40:05,123 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款金额为-1,请求数据data:{'repaymemtWay': '4', 'amount': '-1', 'loanTerm': '6', 'loanRate': '18.1', 'memberId': '1406', 'title': 'test add,_15071177296', 'loanDateType': '0', 'biddingDays': '5'},查询的sql:None,测试通过
+2019-04-26 22:40:05,259 - log_parser.py [line:34] - DEBUG - 日志信息：case:年利率为-0.0,请求数据data:{'repaymemtWay': '4', 'amount': '1000', 'loanTerm': '6', 'loanRate': '-0.0', 'memberId': '1406', 'title': 'test add,_15071177296', 'loanDateType': '0', 'biddingDays': '5'},查询的sql:None,测试通过
+2019-04-26 22:40:05,380 - log_parser.py [line:34] - DEBUG - 日志信息：case:年利率为0,请求数据data:{'repaymemtWay': '4', 'amount': '1000', 'loanTerm': '6', 'loanRate': '0', 'memberId': '1406', 'title': 'test add,_15071177296', 'loanDateType': '0', 'biddingDays': '5'},查询的sql:None,测试通过
+2019-04-26 22:40:05,436 - log_parser.py [line:34] - DEBUG - 日志信息：case:年利率为24,加标前的loan条数263
+2019-04-26 22:40:05,566 - log_parser.py [line:34] - DEBUG - 日志信息：case:年利率为24,请求数据data:{'repaymemtWay': '4', 'amount': '1000', 'loanTerm': '6', 'loanRate': '24', 'memberId': '1406', 'title': 'test add,_15071177296', 'loanDateType': '0', 'biddingDays': '5'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-26 22:40:05,621 - log_parser.py [line:34] - DEBUG - 日志信息：case年利率为24,加标后的loan条数264
+2019-04-26 22:40:05,740 - log_parser.py [line:34] - DEBUG - 日志信息：case:年利率为25,请求数据data:{'repaymemtWay': '4', 'amount': '1000', 'loanTerm': '6', 'loanRate': '25', 'memberId': '1406', 'title': 'test add,_15071177296', 'loanDateType': '0', 'biddingDays': '5'},查询的sql:None,测试通过
+2019-04-26 22:40:05,860 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款日期期限为其他类型，参数为1,请求数据data:{'repaymemtWay': '4', 'amount': '100000.00', 'loanTerm': '6', 'loanRate': '18.1', 'memberId': '1406', 'title': 'test add,_15071177296', 'loanDateType': '5', 'biddingDays': '5'},查询的sql:None,测试通过
+2019-04-26 22:40:05,992 - log_parser.py [line:34] - DEBUG - 日志信息：case:其他还款方式,请求数据data:{'repaymemtWay': '32', 'amount': '100000.00', 'loanTerm': '6', 'loanRate': '18.1', 'memberId': '1406', 'title': 'test add,_15071177296', 'loanDateType': '0', 'biddingDays': '6'},查询的sql:None,测试失败
+2019-04-26 22:40:08,326 - log_parser.py [line:34] - DEBUG - 日志信息：case:正常登录,请求数据data:{'pwd': '123456', 'mobilephone': '15810447878'},测试通过
+2019-04-26 22:40:08,445 - log_parser.py [line:34] - DEBUG - 日志信息：case:密码错误,请求数据data:{'pwd': '12345', 'mobilephone': '15810447878'},测试通过
+2019-04-26 22:40:08,565 - log_parser.py [line:34] - DEBUG - 日志信息：case:用户名错误,请求数据data:{'pwd': '123456', 'mobilephone': '158104478783'},测试通过
+2019-04-26 22:40:08,681 - log_parser.py [line:34] - DEBUG - 日志信息：case:密码为空,请求数据data:{'pwd': '', 'mobilephone': '15810447878'},测试通过
+2019-04-26 22:40:08,799 - log_parser.py [line:34] - DEBUG - 日志信息：case:用户名为空,请求数据data:{'pwd': '123456', 'mobilephone': ''},测试通过
+2019-04-26 22:40:09,169 - log_parser.py [line:34] - DEBUG - 日志信息：case:该用户未登录,请求数据data:{'amount': '1000', 'mobilephone': '15810447879'},查询的sql:None,测试通过
+2019-04-26 22:40:09,372 - log_parser.py [line:34] - DEBUG - 日志信息：case:正常登录,请求数据data:{'pwd': '123456', 'mobilephone': '15810447878'},查询的sql:None,测试通过
+2019-04-26 22:40:09,697 - log_parser.py [line:34] - DEBUG - 日志信息：case:正常充值,请求数据data:{'amount': '1000', 'mobilephone': '15810447878'},查询的sql:select leaveamount from future.member where mobilephone = '15810447878',测试通过
+2019-04-26 22:40:09,900 - log_parser.py [line:34] - DEBUG - 日志信息：case:充值金额位负数,请求数据data:{'amount': '-1', 'mobilephone': '15810447878'},查询的sql:None,测试通过
+2019-04-26 22:40:10,101 - log_parser.py [line:34] - DEBUG - 日志信息：case:充值金额为大于50万,请求数据data:{'amount': '500000.01', 'mobilephone': '15810447878'},查询的sql:None,测试通过
+2019-04-26 22:40:10,329 - log_parser.py [line:34] - DEBUG - 日志信息：case:充值金额为空,请求数据data:{'amount': '', 'mobilephone': '15810447878'},查询的sql:None,测试通过
+2019-04-26 22:40:10,533 - log_parser.py [line:34] - DEBUG - 日志信息：case:会员不存在,请求数据data:{'amount': '1005', 'mobilephone': '18810447878'},查询的sql:None,测试通过
+2019-04-26 22:40:10,830 - log_parser.py [line:34] - DEBUG - 日志信息：case:正常注册,请求数据data:{'pwd': '123456', 'mobilephone': '18999995464'},查询的sql:select max(mobilephone) from future.member,测试通过
+2019-04-26 22:40:10,945 - log_parser.py [line:34] - DEBUG - 日志信息：case:会员名为空,请求数据data:{'pwd': '123457', 'mobilephone': ''},查询的sql:None,测试通过
+2019-04-26 22:40:11,077 - log_parser.py [line:34] - DEBUG - 日志信息：case:密码为空,请求数据data:{'pwd': '', 'mobilephone': '15810837678'},查询的sql:None,测试通过
+2019-04-26 22:40:11,196 - log_parser.py [line:34] - DEBUG - 日志信息：case:该会员已注册,请求数据data:{'pwd': '123459', 'mobilephone': '15810837678'},查询的sql:None,测试通过
+2019-04-26 22:40:11,311 - log_parser.py [line:34] - DEBUG - 日志信息：case:手机格式错误,请求数据data:{'pwd': '@123456556&', 'mobilephone': '158105484789'},查询的sql:None,测试通过
+2019-04-26 22:40:11,427 - log_parser.py [line:34] - DEBUG - 日志信息：case:密码位数等于超过16位,请求数据data:{'pwd': '@1555555555555523456556&', 'mobilephone': '15810548475'},查询的sql:None,测试通过
+2019-04-26 22:40:11,543 - log_parser.py [line:34] - DEBUG - 日志信息：case:密码位数等于6位,请求数据data:{'pwd': '11111', 'mobilephone': '15810548475'},查询的sql:None,测试通过
+2019-04-27 20:03:55,413 - log_parser.py [line:34] - DEBUG - 日志信息：case:正常登录,请求数据data:{'pwd': '123456', 'mobilephone': '15071177296'},查询的sql:None,测试通过
+2019-04-27 20:03:55,479 - log_parser.py [line:34] - DEBUG - 日志信息：case:加标成功,加标前的loan条数266
+2019-04-27 20:03:55,650 - log_parser.py [line:34] - DEBUG - 日志信息：case:加标成功,请求数据data:{'loanTerm': 3, 'biddingDays': 5, 'repaymemtWay': 11, 'memberId': '1406', 'loanRate': '12.0', 'title': 'test add,_15071177296', 'loanDateType': 0, 'amount': 20000},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-27 20:03:55,706 - log_parser.py [line:34] - DEBUG - 日志信息：case加标成功,加标后的loan条数267
+2019-04-27 20:03:55,766 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款日期期限为日，参数为2,加标前的loan条数267
+2019-04-27 20:03:55,903 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款日期期限为日，参数为2,请求数据data:{'loanTerm': '6', 'biddingDays': '5', 'repaymemtWay': '4', 'memberId': '1406', 'loanRate': '18.1', 'title': 'test add,_150测试', 'loanDateType': '2', 'amount': '100000.00'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-27 20:03:55,959 - log_parser.py [line:34] - DEBUG - 日志信息：case借款日期期限为日，参数为2,加标后的loan条数268
+2019-04-27 20:03:56,015 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款日期期限为月，参数为0,加标前的loan条数268
+2019-04-27 20:03:56,135 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款日期期限为月，参数为0,请求数据data:{'loanTerm': '6', 'biddingDays': '5', 'repaymemtWay': '4', 'memberId': '1406', 'loanRate': '18.1', 'title': 'test add,_15071177296', 'loanDateType': '0', 'amount': '100000.00'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-27 20:03:56,192 - log_parser.py [line:34] - DEBUG - 日志信息：case借款日期期限为月，参数为0,加标后的loan条数269
+2019-04-27 20:03:56,249 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款日期期限为周，参数为4,加标前的loan条数269
+2019-04-27 20:03:56,370 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款日期期限为周，参数为4,请求数据data:{'loanTerm': '6', 'biddingDays': '5', 'repaymemtWay': '4', 'memberId': '1406', 'loanRate': '18.1', 'title': 'test add,_15071177296', 'loanDateType': '4', 'amount': '100000.00'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-27 20:03:56,427 - log_parser.py [line:34] - DEBUG - 日志信息：case借款日期期限为周，参数为4,加标后的loan条数270
+2019-04-27 20:03:56,484 - log_parser.py [line:34] - DEBUG - 日志信息：case:一次性还款,加标前的loan条数270
+2019-04-27 20:03:56,607 - log_parser.py [line:34] - DEBUG - 日志信息：case:一次性还款,请求数据data:{'loanTerm': '6', 'biddingDays': '5', 'repaymemtWay': '4', 'memberId': '1406', 'loanRate': '18.1', 'title': 'test add,_15071177296', 'loanDateType': '0', 'amount': '100000.00'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-27 20:03:56,664 - log_parser.py [line:34] - DEBUG - 日志信息：case一次性还款,加标后的loan条数271
+2019-04-27 20:03:56,721 - log_parser.py [line:34] - DEBUG - 日志信息：case:按月等额本息,加标前的loan条数271
+2019-04-27 20:03:56,859 - log_parser.py [line:34] - DEBUG - 日志信息：case:按月等额本息,请求数据data:{'loanTerm': '6', 'biddingDays': '5', 'repaymemtWay': '5', 'memberId': '1406', 'loanRate': '18.1', 'title': 'test add,_15071177296', 'loanDateType': '0', 'amount': '100000.00'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-27 20:03:56,916 - log_parser.py [line:34] - DEBUG - 日志信息：case按月等额本息,加标后的loan条数272
+2019-04-27 20:03:56,973 - log_parser.py [line:34] - DEBUG - 日志信息：case:按月付息，到期还本,加标前的loan条数272
+2019-04-27 20:03:57,107 - log_parser.py [line:34] - DEBUG - 日志信息：case:按月付息，到期还本,请求数据data:{'loanTerm': '6', 'biddingDays': '5', 'repaymemtWay': '11', 'memberId': '1406', 'loanRate': '18.1', 'title': 'test add,_15071177296', 'loanDateType': '0', 'amount': '100000.00'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-27 20:03:57,162 - log_parser.py [line:34] - DEBUG - 日志信息：case按月付息，到期还本,加标后的loan条数273
+2019-04-27 20:03:57,281 - log_parser.py [line:34] - DEBUG - 日志信息：case:用户ID为小数,请求数据data:{'loanTerm': '6', 'biddingDays': '6', 'repaymemtWay': '4', 'memberId': '20.2', 'loanRate': '18.1', 'title': 'test add,_15071177296', 'loanDateType': '0', 'amount': '100000.00'},查询的sql:None,测试通过
+2019-04-27 20:03:57,408 - log_parser.py [line:34] - DEBUG - 日志信息：case:用户ID不存在,请求数据data:{'loanTerm': '6', 'biddingDays': '6', 'repaymemtWay': '4', 'memberId': '99999', 'loanRate': '18.1', 'title': 'test add,_15071177296', 'loanDateType': '0', 'amount': '100000.00'},查询的sql:None,测试通过
+2019-04-27 20:03:57,465 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款金额为1000,加标前的loan条数273
+2019-04-27 20:03:57,592 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款金额为1000,请求数据data:{'loanTerm': '6', 'biddingDays': '5', 'repaymemtWay': '4', 'memberId': '1406', 'loanRate': '18.1', 'title': 'test add,_15071177296', 'loanDateType': '0', 'amount': '1000.00'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-27 20:03:57,651 - log_parser.py [line:34] - DEBUG - 日志信息：case借款金额为1000,加标后的loan条数274
+2019-04-27 20:03:57,781 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款金额为1001,请求数据data:{'loanTerm': '6', 'biddingDays': '5', 'repaymemtWay': '4', 'memberId': '1406', 'loanRate': '18.1', 'title': 'test add,_15071177296', 'loanDateType': '0', 'amount': '1001.00'},查询的sql:None,测试通过
+2019-04-27 20:03:57,839 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款金额为1000.0,加标前的loan条数274
+2019-04-27 20:03:57,970 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款金额为1000.0,请求数据data:{'loanTerm': '6', 'biddingDays': '5', 'repaymemtWay': '4', 'memberId': '1406', 'loanRate': '18.1', 'title': 'test add,_15071177296', 'loanDateType': '0', 'amount': '1000.00'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-27 20:03:58,027 - log_parser.py [line:34] - DEBUG - 日志信息：case借款金额为1000.0,加标后的loan条数275
+2019-04-27 20:03:58,170 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款金额为-1,请求数据data:{'loanTerm': '6', 'biddingDays': '5', 'repaymemtWay': '4', 'memberId': '1406', 'loanRate': '18.1', 'title': 'test add,_15071177296', 'loanDateType': '0', 'amount': '-1'},查询的sql:None,测试通过
+2019-04-27 20:03:58,306 - log_parser.py [line:34] - DEBUG - 日志信息：case:年利率为-0.0,请求数据data:{'loanTerm': '6', 'biddingDays': '5', 'repaymemtWay': '4', 'memberId': '1406', 'loanRate': '-0.0', 'title': 'test add,_15071177296', 'loanDateType': '0', 'amount': '1000'},查询的sql:None,测试通过
+2019-04-27 20:03:58,429 - log_parser.py [line:34] - DEBUG - 日志信息：case:年利率为0,请求数据data:{'loanTerm': '6', 'biddingDays': '5', 'repaymemtWay': '4', 'memberId': '1406', 'loanRate': '0', 'title': 'test add,_15071177296', 'loanDateType': '0', 'amount': '1000'},查询的sql:None,测试通过
+2019-04-27 20:03:58,485 - log_parser.py [line:34] - DEBUG - 日志信息：case:年利率为24,加标前的loan条数275
+2019-04-27 20:03:58,617 - log_parser.py [line:34] - DEBUG - 日志信息：case:年利率为24,请求数据data:{'loanTerm': '6', 'biddingDays': '5', 'repaymemtWay': '4', 'memberId': '1406', 'loanRate': '24', 'title': 'test add,_15071177296', 'loanDateType': '0', 'amount': '1000'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-27 20:03:58,674 - log_parser.py [line:34] - DEBUG - 日志信息：case年利率为24,加标后的loan条数276
+2019-04-27 20:03:58,811 - log_parser.py [line:34] - DEBUG - 日志信息：case:年利率为25,请求数据data:{'loanTerm': '6', 'biddingDays': '5', 'repaymemtWay': '4', 'memberId': '1406', 'loanRate': '25', 'title': 'test add,_15071177296', 'loanDateType': '0', 'amount': '1000'},查询的sql:None,测试通过
+2019-04-27 20:03:58,936 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款日期期限为其他类型，参数为1,请求数据data:{'loanTerm': '6', 'biddingDays': '5', 'repaymemtWay': '4', 'memberId': '1406', 'loanRate': '18.1', 'title': 'test add,_15071177296', 'loanDateType': '5', 'amount': '100000.00'},查询的sql:None,测试通过
+2019-04-27 20:03:59,074 - log_parser.py [line:34] - DEBUG - 日志信息：case:其他还款方式,请求数据data:{'loanTerm': '6', 'biddingDays': '6', 'repaymemtWay': '32', 'memberId': '1406', 'loanRate': '18.1', 'title': 'test add,_15071177296', 'loanDateType': '0', 'amount': '100000.00'},查询的sql:None,测试失败
+2019-04-27 20:04:01,781 - log_parser.py [line:34] - DEBUG - 日志信息：case:正常登录,请求数据data:{'pwd': '123456', 'mobilephone': '15810447878'},测试通过
+2019-04-27 20:04:01,904 - log_parser.py [line:34] - DEBUG - 日志信息：case:密码错误,请求数据data:{'pwd': '12345', 'mobilephone': '15810447878'},测试通过
+2019-04-27 20:04:02,024 - log_parser.py [line:34] - DEBUG - 日志信息：case:用户名错误,请求数据data:{'pwd': '123456', 'mobilephone': '158104478783'},测试通过
+2019-04-27 20:04:02,147 - log_parser.py [line:34] - DEBUG - 日志信息：case:密码为空,请求数据data:{'pwd': '', 'mobilephone': '15810447878'},测试通过
+2019-04-27 20:04:02,267 - log_parser.py [line:34] - DEBUG - 日志信息：case:用户名为空,请求数据data:{'pwd': '123456', 'mobilephone': ''},测试通过
+2019-04-27 20:04:02,645 - log_parser.py [line:34] - DEBUG - 日志信息：case:该用户未登录,请求数据data:{'amount': '1000', 'mobilephone': '15810447879'},查询的sql:None,测试通过
+2019-04-27 20:04:02,879 - log_parser.py [line:34] - DEBUG - 日志信息：case:正常登录,请求数据data:{'pwd': '123456', 'mobilephone': '15810447878'},查询的sql:None,测试通过
+2019-04-27 20:04:03,231 - log_parser.py [line:34] - DEBUG - 日志信息：case:正常充值,请求数据data:{'amount': '1000', 'mobilephone': '15810447878'},查询的sql:select leaveamount from future.member where mobilephone = '15810447878',测试通过
+2019-04-27 20:04:03,442 - log_parser.py [line:34] - DEBUG - 日志信息：case:充值金额位负数,请求数据data:{'amount': '-1', 'mobilephone': '15810447878'},查询的sql:None,测试通过
+2019-04-27 20:04:03,659 - log_parser.py [line:34] - DEBUG - 日志信息：case:充值金额为大于50万,请求数据data:{'amount': '500000.01', 'mobilephone': '15810447878'},查询的sql:None,测试通过
+2019-04-27 20:04:03,876 - log_parser.py [line:34] - DEBUG - 日志信息：case:充值金额为空,请求数据data:{'amount': '', 'mobilephone': '15810447878'},查询的sql:None,测试通过
+2019-04-27 20:04:04,088 - log_parser.py [line:34] - DEBUG - 日志信息：case:会员不存在,请求数据data:{'amount': '1005', 'mobilephone': '18810447878'},查询的sql:None,测试通过
+2019-04-27 20:04:04,399 - log_parser.py [line:34] - DEBUG - 日志信息：case:正常注册,请求数据data:{'pwd': '123456', 'mobilephone': '18999995376'},查询的sql:select max(mobilephone) from future.member,测试通过
+2019-04-27 20:04:04,518 - log_parser.py [line:34] - DEBUG - 日志信息：case:会员名为空,请求数据data:{'pwd': '123457', 'mobilephone': ''},查询的sql:None,测试通过
+2019-04-27 20:04:04,654 - log_parser.py [line:34] - DEBUG - 日志信息：case:密码为空,请求数据data:{'pwd': '', 'mobilephone': '15810837678'},查询的sql:None,测试通过
+2019-04-27 20:04:04,774 - log_parser.py [line:34] - DEBUG - 日志信息：case:该会员已注册,请求数据data:{'pwd': '123459', 'mobilephone': '15810837678'},查询的sql:None,测试通过
+2019-04-27 20:04:04,895 - log_parser.py [line:34] - DEBUG - 日志信息：case:手机格式错误,请求数据data:{'pwd': '@123456556&', 'mobilephone': '158105484789'},查询的sql:None,测试通过
+2019-04-27 20:04:05,013 - log_parser.py [line:34] - DEBUG - 日志信息：case:密码位数等于超过16位,请求数据data:{'pwd': '@1555555555555523456556&', 'mobilephone': '15810548475'},查询的sql:None,测试通过
+2019-04-27 20:04:05,132 - log_parser.py [line:34] - DEBUG - 日志信息：case:密码位数等于6位,请求数据data:{'pwd': '11111', 'mobilephone': '15810548475'},查询的sql:None,测试通过
+2019-04-28 12:41:19,884 - log_parser.py [line:34] - DEBUG - 日志信息：case:正常登录,请求数据data:{'pwd': '123456', 'mobilephone': '15071177296'},查询的sql:None,测试通过
+2019-04-28 12:41:19,942 - log_parser.py [line:34] - DEBUG - 日志信息：case:加标成功,加标前的loan条数278
+2019-04-28 12:41:20,081 - log_parser.py [line:34] - DEBUG - 日志信息：case:加标成功,请求数据data:{'memberId': '1406', 'amount': 20000, 'repaymemtWay': 11, 'title': 'test add,_15071177296', 'loanDateType': 0, 'loanTerm': 3, 'biddingDays': 5, 'loanRate': '12.0'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-28 12:41:20,140 - log_parser.py [line:34] - DEBUG - 日志信息：case加标成功,加标后的loan条数279
+2019-04-28 12:41:20,198 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款日期期限为日，参数为2,加标前的loan条数279
+2019-04-28 12:41:20,332 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款日期期限为日，参数为2,请求数据data:{'memberId': '1406', 'amount': '100000.00', 'repaymemtWay': '4', 'title': 'test add,_150测试', 'loanDateType': '2', 'loanTerm': '6', 'biddingDays': '5', 'loanRate': '18.1'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-28 12:41:20,388 - log_parser.py [line:34] - DEBUG - 日志信息：case借款日期期限为日，参数为2,加标后的loan条数280
+2019-04-28 12:41:20,445 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款日期期限为月，参数为0,加标前的loan条数280
+2019-04-28 12:41:20,574 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款日期期限为月，参数为0,请求数据data:{'memberId': '1406', 'amount': '100000.00', 'repaymemtWay': '4', 'title': 'test add,_15071177296', 'loanDateType': '0', 'loanTerm': '6', 'biddingDays': '5', 'loanRate': '18.1'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-28 12:41:20,631 - log_parser.py [line:34] - DEBUG - 日志信息：case借款日期期限为月，参数为0,加标后的loan条数281
+2019-04-28 12:41:20,689 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款日期期限为周，参数为4,加标前的loan条数281
+2019-04-28 12:41:20,818 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款日期期限为周，参数为4,请求数据data:{'memberId': '1406', 'amount': '100000.00', 'repaymemtWay': '4', 'title': 'test add,_15071177296', 'loanDateType': '4', 'loanTerm': '6', 'biddingDays': '5', 'loanRate': '18.1'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-28 12:41:20,875 - log_parser.py [line:34] - DEBUG - 日志信息：case借款日期期限为周，参数为4,加标后的loan条数282
+2019-04-28 12:41:20,932 - log_parser.py [line:34] - DEBUG - 日志信息：case:一次性还款,加标前的loan条数282
+2019-04-28 12:41:21,064 - log_parser.py [line:34] - DEBUG - 日志信息：case:一次性还款,请求数据data:{'memberId': '1406', 'amount': '100000.00', 'repaymemtWay': '4', 'title': 'test add,_15071177296', 'loanDateType': '0', 'loanTerm': '6', 'biddingDays': '5', 'loanRate': '18.1'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-28 12:41:21,122 - log_parser.py [line:34] - DEBUG - 日志信息：case一次性还款,加标后的loan条数283
+2019-04-28 12:41:21,179 - log_parser.py [line:34] - DEBUG - 日志信息：case:按月等额本息,加标前的loan条数283
+2019-04-28 12:41:21,331 - log_parser.py [line:34] - DEBUG - 日志信息：case:按月等额本息,请求数据data:{'memberId': '1406', 'amount': '100000.00', 'repaymemtWay': '5', 'title': 'test add,_15071177296', 'loanDateType': '0', 'loanTerm': '6', 'biddingDays': '5', 'loanRate': '18.1'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-28 12:41:21,387 - log_parser.py [line:34] - DEBUG - 日志信息：case按月等额本息,加标后的loan条数284
+2019-04-28 12:41:21,445 - log_parser.py [line:34] - DEBUG - 日志信息：case:按月付息，到期还本,加标前的loan条数284
+2019-04-28 12:41:21,571 - log_parser.py [line:34] - DEBUG - 日志信息：case:按月付息，到期还本,请求数据data:{'memberId': '1406', 'amount': '100000.00', 'repaymemtWay': '11', 'title': 'test add,_15071177296', 'loanDateType': '0', 'loanTerm': '6', 'biddingDays': '5', 'loanRate': '18.1'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-28 12:41:21,628 - log_parser.py [line:34] - DEBUG - 日志信息：case按月付息，到期还本,加标后的loan条数285
+2019-04-28 12:41:21,750 - log_parser.py [line:34] - DEBUG - 日志信息：case:用户ID为小数,请求数据data:{'memberId': '20.2', 'amount': '100000.00', 'repaymemtWay': '4', 'title': 'test add,_15071177296', 'loanDateType': '0', 'loanTerm': '6', 'biddingDays': '6', 'loanRate': '18.1'},查询的sql:None,测试通过
+2019-04-28 12:41:21,877 - log_parser.py [line:34] - DEBUG - 日志信息：case:用户ID不存在,请求数据data:{'memberId': '99999', 'amount': '100000.00', 'repaymemtWay': '4', 'title': 'test add,_15071177296', 'loanDateType': '0', 'loanTerm': '6', 'biddingDays': '6', 'loanRate': '18.1'},查询的sql:None,测试通过
+2019-04-28 12:41:21,935 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款金额为1000,加标前的loan条数285
+2019-04-28 12:41:22,064 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款金额为1000,请求数据data:{'memberId': '1406', 'amount': '1000.00', 'repaymemtWay': '4', 'title': 'test add,_15071177296', 'loanDateType': '0', 'loanTerm': '6', 'biddingDays': '5', 'loanRate': '18.1'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-28 12:41:22,121 - log_parser.py [line:34] - DEBUG - 日志信息：case借款金额为1000,加标后的loan条数286
+2019-04-28 12:41:22,256 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款金额为1001,请求数据data:{'memberId': '1406', 'amount': '1001.00', 'repaymemtWay': '4', 'title': 'test add,_15071177296', 'loanDateType': '0', 'loanTerm': '6', 'biddingDays': '5', 'loanRate': '18.1'},查询的sql:None,测试通过
+2019-04-28 12:41:22,312 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款金额为1000.0,加标前的loan条数286
+2019-04-28 12:41:22,451 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款金额为1000.0,请求数据data:{'memberId': '1406', 'amount': '1000.00', 'repaymemtWay': '4', 'title': 'test add,_15071177296', 'loanDateType': '0', 'loanTerm': '6', 'biddingDays': '5', 'loanRate': '18.1'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-28 12:41:22,507 - log_parser.py [line:34] - DEBUG - 日志信息：case借款金额为1000.0,加标后的loan条数287
+2019-04-28 12:41:22,630 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款金额为-1,请求数据data:{'memberId': '1406', 'amount': '-1', 'repaymemtWay': '4', 'title': 'test add,_15071177296', 'loanDateType': '0', 'loanTerm': '6', 'biddingDays': '5', 'loanRate': '18.1'},查询的sql:None,测试通过
+2019-04-28 12:41:22,772 - log_parser.py [line:34] - DEBUG - 日志信息：case:年利率为-0.0,请求数据data:{'memberId': '1406', 'amount': '1000', 'repaymemtWay': '4', 'title': 'test add,_15071177296', 'loanDateType': '0', 'loanTerm': '6', 'biddingDays': '5', 'loanRate': '-0.0'},查询的sql:None,测试通过
+2019-04-28 12:41:22,894 - log_parser.py [line:34] - DEBUG - 日志信息：case:年利率为0,请求数据data:{'memberId': '1406', 'amount': '1000', 'repaymemtWay': '4', 'title': 'test add,_15071177296', 'loanDateType': '0', 'loanTerm': '6', 'biddingDays': '5', 'loanRate': '0'},查询的sql:None,测试通过
+2019-04-28 12:41:22,950 - log_parser.py [line:34] - DEBUG - 日志信息：case:年利率为24,加标前的loan条数287
+2019-04-28 12:41:23,083 - log_parser.py [line:34] - DEBUG - 日志信息：case:年利率为24,请求数据data:{'memberId': '1406', 'amount': '1000', 'repaymemtWay': '4', 'title': 'test add,_15071177296', 'loanDateType': '0', 'loanTerm': '6', 'biddingDays': '5', 'loanRate': '24'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-28 12:41:23,139 - log_parser.py [line:34] - DEBUG - 日志信息：case年利率为24,加标后的loan条数288
+2019-04-28 12:41:23,261 - log_parser.py [line:34] - DEBUG - 日志信息：case:年利率为25,请求数据data:{'memberId': '1406', 'amount': '1000', 'repaymemtWay': '4', 'title': 'test add,_15071177296', 'loanDateType': '0', 'loanTerm': '6', 'biddingDays': '5', 'loanRate': '25'},查询的sql:None,测试通过
+2019-04-28 12:41:23,385 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款日期期限为其他类型，参数为1,请求数据data:{'memberId': '1406', 'amount': '100000.00', 'repaymemtWay': '4', 'title': 'test add,_15071177296', 'loanDateType': '5', 'loanTerm': '6', 'biddingDays': '5', 'loanRate': '18.1'},查询的sql:None,测试通过
+2019-04-28 12:41:23,529 - log_parser.py [line:34] - DEBUG - 日志信息：case:其他还款方式,请求数据data:{'memberId': '1406', 'amount': '100000.00', 'repaymemtWay': '32', 'title': 'test add,_15071177296', 'loanDateType': '0', 'loanTerm': '6', 'biddingDays': '6', 'loanRate': '18.1'},查询的sql:None,测试失败
+2019-04-28 12:41:25,998 - log_parser.py [line:34] - DEBUG - 日志信息：case:正常登录,请求数据data:{'pwd': '123456', 'mobilephone': '15810447878'},测试通过
+2019-04-28 12:41:26,125 - log_parser.py [line:34] - DEBUG - 日志信息：case:密码错误,请求数据data:{'pwd': '12345', 'mobilephone': '15810447878'},测试通过
+2019-04-28 12:41:26,251 - log_parser.py [line:34] - DEBUG - 日志信息：case:用户名错误,请求数据data:{'pwd': '123456', 'mobilephone': '158104478783'},测试通过
+2019-04-28 12:41:26,373 - log_parser.py [line:34] - DEBUG - 日志信息：case:密码为空,请求数据data:{'pwd': '', 'mobilephone': '15810447878'},测试通过
+2019-04-28 12:41:26,493 - log_parser.py [line:34] - DEBUG - 日志信息：case:用户名为空,请求数据data:{'pwd': '123456', 'mobilephone': ''},测试通过
+2019-04-28 12:41:26,883 - log_parser.py [line:34] - DEBUG - 日志信息：case:该用户未登录,请求数据data:{'amount': '1000', 'mobilephone': '15810447879'},查询的sql:None,测试通过
+2019-04-28 12:41:27,096 - log_parser.py [line:34] - DEBUG - 日志信息：case:正常登录,请求数据data:{'pwd': '123456', 'mobilephone': '15810447878'},查询的sql:None,测试通过
+2019-04-28 12:41:27,436 - log_parser.py [line:34] - DEBUG - 日志信息：case:正常充值,请求数据data:{'amount': '1000', 'mobilephone': '15810447878'},查询的sql:select leaveamount from future.member where mobilephone = '15810447878',测试通过
+2019-04-28 12:41:27,646 - log_parser.py [line:34] - DEBUG - 日志信息：case:充值金额位负数,请求数据data:{'amount': '-1', 'mobilephone': '15810447878'},查询的sql:None,测试通过
+2019-04-28 12:41:27,858 - log_parser.py [line:34] - DEBUG - 日志信息：case:充值金额为大于50万,请求数据data:{'amount': '500000.01', 'mobilephone': '15810447878'},查询的sql:None,测试通过
+2019-04-28 12:41:28,073 - log_parser.py [line:34] - DEBUG - 日志信息：case:充值金额为空,请求数据data:{'amount': '', 'mobilephone': '15810447878'},查询的sql:None,测试通过
+2019-04-28 12:41:28,287 - log_parser.py [line:34] - DEBUG - 日志信息：case:会员不存在,请求数据data:{'amount': '1005', 'mobilephone': '18810447878'},查询的sql:None,测试通过
+2019-04-28 12:41:28,595 - log_parser.py [line:34] - DEBUG - 日志信息：case:正常注册,请求数据data:{'pwd': '123456', 'mobilephone': '18999997421'},查询的sql:select max(mobilephone) from future.member,测试通过
+2019-04-28 12:41:28,717 - log_parser.py [line:34] - DEBUG - 日志信息：case:会员名为空,请求数据data:{'pwd': '123457', 'mobilephone': ''},查询的sql:None,测试通过
+2019-04-28 12:41:28,860 - log_parser.py [line:34] - DEBUG - 日志信息：case:密码为空,请求数据data:{'pwd': '', 'mobilephone': '15810837678'},查询的sql:None,测试通过
+2019-04-28 12:41:28,982 - log_parser.py [line:34] - DEBUG - 日志信息：case:该会员已注册,请求数据data:{'pwd': '123459', 'mobilephone': '15810837678'},查询的sql:None,测试通过
+2019-04-28 12:41:29,176 - log_parser.py [line:34] - DEBUG - 日志信息：case:手机格式错误,请求数据data:{'pwd': '@123456556&', 'mobilephone': '158105484789'},查询的sql:None,测试通过
+2019-04-28 12:41:29,296 - log_parser.py [line:34] - DEBUG - 日志信息：case:密码位数等于超过16位,请求数据data:{'pwd': '@1555555555555523456556&', 'mobilephone': '15810548475'},查询的sql:None,测试通过
+2019-04-28 12:41:29,420 - log_parser.py [line:34] - DEBUG - 日志信息：case:密码位数等于6位,请求数据data:{'pwd': '11111', 'mobilephone': '15810548475'},查询的sql:None,测试通过
+2019-04-28 17:17:12,100 - log_parser.py [line:34] - DEBUG - 日志信息：case:正常登录,请求数据data:{'mobilephone': '15071177296', 'pwd': '123456'},查询的sql:None,测试通过
+2019-04-28 17:17:12,166 - log_parser.py [line:34] - DEBUG - 日志信息：case:加标成功,加标前的loan条数290
+2019-04-28 17:17:12,285 - log_parser.py [line:34] - DEBUG - 日志信息：case:加标成功,请求数据data:{'memberId': '1406', 'title': 'test add,_15071177296', 'amount': 20000, 'loanRate': '12.0', 'loanTerm': 3, 'loanDateType': 0, 'repaymemtWay': 11, 'biddingDays': 5},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-28 17:17:12,341 - log_parser.py [line:34] - DEBUG - 日志信息：case加标成功,加标后的loan条数291
+2019-04-28 17:17:12,397 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款日期期限为日，参数为2,加标前的loan条数291
+2019-04-28 17:17:12,495 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款日期期限为日，参数为2,请求数据data:{'memberId': '1406', 'title': 'test add,_150测试', 'amount': '100000.00', 'loanRate': '18.1', 'loanTerm': '6', 'loanDateType': '2', 'repaymemtWay': '4', 'biddingDays': '5'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-28 17:17:12,550 - log_parser.py [line:34] - DEBUG - 日志信息：case借款日期期限为日，参数为2,加标后的loan条数292
+2019-04-28 17:17:12,606 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款日期期限为月，参数为0,加标前的loan条数292
+2019-04-28 17:17:12,716 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款日期期限为月，参数为0,请求数据data:{'memberId': '1406', 'title': 'test add,_15071177296', 'amount': '100000.00', 'loanRate': '18.1', 'loanTerm': '6', 'loanDateType': '0', 'repaymemtWay': '4', 'biddingDays': '5'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-28 17:17:12,771 - log_parser.py [line:34] - DEBUG - 日志信息：case借款日期期限为月，参数为0,加标后的loan条数293
+2019-04-28 17:17:12,827 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款日期期限为周，参数为4,加标前的loan条数293
+2019-04-28 17:17:12,925 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款日期期限为周，参数为4,请求数据data:{'memberId': '1406', 'title': 'test add,_15071177296', 'amount': '100000.00', 'loanRate': '18.1', 'loanTerm': '6', 'loanDateType': '4', 'repaymemtWay': '4', 'biddingDays': '5'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-28 17:17:12,982 - log_parser.py [line:34] - DEBUG - 日志信息：case借款日期期限为周，参数为4,加标后的loan条数294
+2019-04-28 17:17:13,037 - log_parser.py [line:34] - DEBUG - 日志信息：case:一次性还款,加标前的loan条数294
+2019-04-28 17:17:13,134 - log_parser.py [line:34] - DEBUG - 日志信息：case:一次性还款,请求数据data:{'memberId': '1406', 'title': 'test add,_15071177296', 'amount': '100000.00', 'loanRate': '18.1', 'loanTerm': '6', 'loanDateType': '0', 'repaymemtWay': '4', 'biddingDays': '5'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-28 17:17:13,190 - log_parser.py [line:34] - DEBUG - 日志信息：case一次性还款,加标后的loan条数295
+2019-04-28 17:17:13,246 - log_parser.py [line:34] - DEBUG - 日志信息：case:按月等额本息,加标前的loan条数295
+2019-04-28 17:17:13,341 - log_parser.py [line:34] - DEBUG - 日志信息：case:按月等额本息,请求数据data:{'memberId': '1406', 'title': 'test add,_15071177296', 'amount': '100000.00', 'loanRate': '18.1', 'loanTerm': '6', 'loanDateType': '0', 'repaymemtWay': '5', 'biddingDays': '5'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-28 17:17:13,394 - log_parser.py [line:34] - DEBUG - 日志信息：case按月等额本息,加标后的loan条数296
+2019-04-28 17:17:13,451 - log_parser.py [line:34] - DEBUG - 日志信息：case:按月付息，到期还本,加标前的loan条数296
+2019-04-28 17:17:13,545 - log_parser.py [line:34] - DEBUG - 日志信息：case:按月付息，到期还本,请求数据data:{'memberId': '1406', 'title': 'test add,_15071177296', 'amount': '100000.00', 'loanRate': '18.1', 'loanTerm': '6', 'loanDateType': '0', 'repaymemtWay': '11', 'biddingDays': '5'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-28 17:17:13,599 - log_parser.py [line:34] - DEBUG - 日志信息：case按月付息，到期还本,加标后的loan条数297
+2019-04-28 17:17:13,691 - log_parser.py [line:34] - DEBUG - 日志信息：case:用户ID为小数,请求数据data:{'memberId': '20.2', 'title': 'test add,_15071177296', 'amount': '100000.00', 'loanRate': '18.1', 'loanTerm': '6', 'loanDateType': '0', 'repaymemtWay': '4', 'biddingDays': '6'},查询的sql:None,测试通过
+2019-04-28 17:17:14,025 - log_parser.py [line:34] - DEBUG - 日志信息：case:用户ID不存在,请求数据data:{'memberId': '99999', 'title': 'test add,_15071177296', 'amount': '100000.00', 'loanRate': '18.1', 'loanTerm': '6', 'loanDateType': '0', 'repaymemtWay': '4', 'biddingDays': '6'},查询的sql:None,测试通过
+2019-04-28 17:17:14,080 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款金额为1000,加标前的loan条数297
+2019-04-28 17:17:14,190 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款金额为1000,请求数据data:{'memberId': '1406', 'title': 'test add,_15071177296', 'amount': '1000.00', 'loanRate': '18.1', 'loanTerm': '6', 'loanDateType': '0', 'repaymemtWay': '4', 'biddingDays': '5'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-28 17:17:14,245 - log_parser.py [line:34] - DEBUG - 日志信息：case借款金额为1000,加标后的loan条数298
+2019-04-28 17:17:14,338 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款金额为1001,请求数据data:{'memberId': '1406', 'title': 'test add,_15071177296', 'amount': '1001.00', 'loanRate': '18.1', 'loanTerm': '6', 'loanDateType': '0', 'repaymemtWay': '4', 'biddingDays': '5'},查询的sql:None,测试通过
+2019-04-28 17:17:14,393 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款金额为1000.0,加标前的loan条数298
+2019-04-28 17:17:14,490 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款金额为1000.0,请求数据data:{'memberId': '1406', 'title': 'test add,_15071177296', 'amount': '1000.00', 'loanRate': '18.1', 'loanTerm': '6', 'loanDateType': '0', 'repaymemtWay': '4', 'biddingDays': '5'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-28 17:17:14,544 - log_parser.py [line:34] - DEBUG - 日志信息：case借款金额为1000.0,加标后的loan条数299
+2019-04-28 17:17:14,636 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款金额为-1,请求数据data:{'memberId': '1406', 'title': 'test add,_15071177296', 'amount': '-1', 'loanRate': '18.1', 'loanTerm': '6', 'loanDateType': '0', 'repaymemtWay': '4', 'biddingDays': '5'},查询的sql:None,测试通过
+2019-04-28 17:17:14,726 - log_parser.py [line:34] - DEBUG - 日志信息：case:年利率为-0.0,请求数据data:{'memberId': '1406', 'title': 'test add,_15071177296', 'amount': '1000', 'loanRate': '-0.0', 'loanTerm': '6', 'loanDateType': '0', 'repaymemtWay': '4', 'biddingDays': '5'},查询的sql:None,测试通过
+2019-04-28 17:17:14,820 - log_parser.py [line:34] - DEBUG - 日志信息：case:年利率为0,请求数据data:{'memberId': '1406', 'title': 'test add,_15071177296', 'amount': '1000', 'loanRate': '0', 'loanTerm': '6', 'loanDateType': '0', 'repaymemtWay': '4', 'biddingDays': '5'},查询的sql:None,测试通过
+2019-04-28 17:17:14,875 - log_parser.py [line:34] - DEBUG - 日志信息：case:年利率为24,加标前的loan条数299
+2019-04-28 17:17:15,002 - log_parser.py [line:34] - DEBUG - 日志信息：case:年利率为24,请求数据data:{'memberId': '1406', 'title': 'test add,_15071177296', 'amount': '1000', 'loanRate': '24', 'loanTerm': '6', 'loanDateType': '0', 'repaymemtWay': '4', 'biddingDays': '5'},查询的sql:SELECT id FROM future.loan where memberid ='1406',测试通过
+2019-04-28 17:17:15,057 - log_parser.py [line:34] - DEBUG - 日志信息：case年利率为24,加标后的loan条数300
+2019-04-28 17:17:15,160 - log_parser.py [line:34] - DEBUG - 日志信息：case:年利率为25,请求数据data:{'memberId': '1406', 'title': 'test add,_15071177296', 'amount': '1000', 'loanRate': '25', 'loanTerm': '6', 'loanDateType': '0', 'repaymemtWay': '4', 'biddingDays': '5'},查询的sql:None,测试通过
+2019-04-28 17:17:15,249 - log_parser.py [line:34] - DEBUG - 日志信息：case:借款日期期限为其他类型，参数为1,请求数据data:{'memberId': '1406', 'title': 'test add,_15071177296', 'amount': '100000.00', 'loanRate': '18.1', 'loanTerm': '6', 'loanDateType': '5', 'repaymemtWay': '4', 'biddingDays': '5'},查询的sql:None,测试通过
+2019-04-28 17:17:15,348 - log_parser.py [line:34] - DEBUG - 日志信息：case:其他还款方式,请求数据data:{'memberId': '1406', 'title': 'test add,_15071177296', 'amount': '100000.00', 'loanRate': '18.1', 'loanTerm': '6', 'loanDateType': '0', 'repaymemtWay': '32', 'biddingDays': '6'},查询的sql:None,测试失败
+2019-04-28 17:17:17,376 - log_parser.py [line:34] - DEBUG - 日志信息：case:正常登录,请求数据data:{'mobilephone': '15810447878', 'pwd': '123456'},测试通过
+2019-04-28 17:17:17,471 - log_parser.py [line:34] - DEBUG - 日志信息：case:密码错误,请求数据data:{'mobilephone': '15810447878', 'pwd': '12345'},测试通过
+2019-04-28 17:17:17,566 - log_parser.py [line:34] - DEBUG - 日志信息：case:用户名错误,请求数据data:{'mobilephone': '158104478783', 'pwd': '123456'},测试通过
+2019-04-28 17:17:17,656 - log_parser.py [line:34] - DEBUG - 日志信息：case:密码为空,请求数据data:{'mobilephone': '15810447878', 'pwd': ''},测试通过
+2019-04-28 17:17:17,754 - log_parser.py [line:34] - DEBUG - 日志信息：case:用户名为空,请求数据data:{'mobilephone': '', 'pwd': '123456'},测试通过
+2019-04-28 17:17:18,058 - log_parser.py [line:34] - DEBUG - 日志信息：case:该用户未登录,请求数据data:{'mobilephone': '15810447879', 'amount': '1000'},查询的sql:None,测试通过
+2019-04-28 17:17:18,213 - log_parser.py [line:34] - DEBUG - 日志信息：case:正常登录,请求数据data:{'mobilephone': '15810447878', 'pwd': '123456'},查询的sql:None,测试通过
+2019-04-28 17:17:18,504 - log_parser.py [line:34] - DEBUG - 日志信息：case:正常充值,请求数据data:{'mobilephone': '15810447878', 'amount': '1000'},查询的sql:select leaveamount from future.member where mobilephone = '15810447878',测试通过
+2019-04-28 17:17:18,651 - log_parser.py [line:34] - DEBUG - 日志信息：case:充值金额位负数,请求数据data:{'mobilephone': '15810447878', 'amount': '-1'},查询的sql:None,测试通过
+2019-04-28 17:17:18,818 - log_parser.py [line:34] - DEBUG - 日志信息：case:充值金额为大于50万,请求数据data:{'mobilephone': '15810447878', 'amount': '500000.01'},查询的sql:None,测试通过
+2019-04-28 17:17:18,984 - log_parser.py [line:34] - DEBUG - 日志信息：case:充值金额为空,请求数据data:{'mobilephone': '15810447878', 'amount': ''},查询的sql:None,测试通过
+2019-04-28 17:17:19,141 - log_parser.py [line:34] - DEBUG - 日志信息：case:会员不存在,请求数据data:{'mobilephone': '18810447878', 'amount': '1005'},查询的sql:None,测试通过
+2019-04-28 17:17:19,420 - log_parser.py [line:34] - DEBUG - 日志信息：case:正常注册,请求数据data:{'mobilephone': '18999996748', 'pwd': '123456'},查询的sql:select max(mobilephone) from future.member,测试通过
+2019-04-28 17:17:19,509 - log_parser.py [line:34] - DEBUG - 日志信息：case:会员名为空,请求数据data:{'mobilephone': '', 'pwd': '123457'},查询的sql:None,测试通过
+2019-04-28 17:17:19,597 - log_parser.py [line:34] - DEBUG - 日志信息：case:密码为空,请求数据data:{'mobilephone': '15810837678', 'pwd': ''},查询的sql:None,测试通过
+2019-04-28 17:17:19,692 - log_parser.py [line:34] - DEBUG - 日志信息：case:该会员已注册,请求数据data:{'mobilephone': '15810837678', 'pwd': '123459'},查询的sql:None,测试通过
+2019-04-28 17:17:19,779 - log_parser.py [line:34] - DEBUG - 日志信息：case:手机格式错误,请求数据data:{'mobilephone': '158105484789', 'pwd': '@123456556&'},查询的sql:None,测试通过
+2019-04-28 17:17:19,866 - log_parser.py [line:34] - DEBUG - 日志信息：case:密码位数等于超过16位,请求数据data:{'mobilephone': '15810548475', 'pwd': '@1555555555555523456556&'},查询的sql:None,测试通过
+2019-04-28 17:17:19,958 - log_parser.py [line:34] - DEBUG - 日志信息：case:密码位数等于6位,请求数据data:{'mobilephone': '15810548475', 'pwd': '11111'},查询的sql:None,测试通过
