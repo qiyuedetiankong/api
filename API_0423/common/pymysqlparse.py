@@ -8,6 +8,7 @@ import pymysql
 
 from API_0423.common.configparse import ReadConfig
 #修改修改
+#5554546
 class PymysqlPrase:
     def __init__(self):
         self.host = ReadConfig().get_cfg_value("sql", "host")
