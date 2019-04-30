@@ -5,6 +5,10 @@
 @email:3126972006@qq.com
 @function： 
 """
+import sys
+print(sys.path)
+sys.path.append("./")
+print(sys.path)
 import unittest
 
 from API_8.common import HTMLTestRunnerNew
